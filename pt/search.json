@@ -14,6 +14,13 @@
     "text": "18 a 22 de novembro de 2024 - Online\n\n Zoom"
   },
   {
+    "objectID": "index.html#palestrantes-principais",
+    "href": "index.html#palestrantes-principais",
+    "title": "LatinR 2024",
+    "section": "Palestrantes principais",
+    "text": "Palestrantes principais"
+  },
+  {
     "objectID": "index.html#novedades-español",
     "href": "index.html#novedades-español",
     "title": "LatinR 2024",
@@ -431,21 +438,21 @@
     "href": "cronograma/conferencistas/palestras-convidadas.html",
     "title": "Palestras convidadas",
     "section": "",
-    "text": "Nesta sexta edição presencial, contaremos com a presença de quatro palestrantes proeminentes no campo da programação com R, com experiência tanto na academia quanto na indústria, comprometidos com a colaboração e a promoção da ciência, dados e software abertos."
+    "text": "Nesta sétima edição, contaremos com a presença de palestrantes proeminentes no campo da programação com R, com experiência tanto na academia quanto na indústria, comprometidos com a colaboração e a promoção da ciência, dados e software abertos.\n\n\n\nJulia Silge\n\n\n\nJulia Silge é uma cientista de dados e\n    gerente de engenharia na Posit PBC (anteriormente RStudio),\n    onde trabalha em ferramentas de modelagem de código aberto e MLOps.\n    Ela é construtora de ferramentas, autora,\n    palestrante em conferências internacionais e praticante do mundo real,\n    focando em análise de dados e aprendizado de máquina.\n    Julia adora análise de texto, criar gráficos bonitos e\n    comunicar tópicos técnicos para públicos diversos.\n    Você pode encontrá-la online em seu blog (https://juliasilge.com/) \n    e canal do YouTube (https://www.youtube.com/juliasilge).\n\n\n\n\n\nWill Landau\n\n\n\nWill Landau é um estatístico e desenvolvedor de software na indústria.\n      Ele é especializado nos aspectos computacionais da estatística bayesiana\n      e na pesquisa reprodutível,\n      além de ser o criador e mantenedor dos pacotes de R targets e crew."
   },
   {
     "objectID": "cronograma/conferencistas/keynotes.html",
     "href": "cronograma/conferencistas/keynotes.html",
     "title": "Keynote Speakers",
     "section": "",
-    "text": "In this sixth in-person edition, we will have the presence of four prominent speakers in the field of programming with R, with experience in both academia and industry, committed to collaboration and the promotion of open science, data, and software."
+    "text": "In this seventh edition, we will have the presence of prominent speakers in the field of programming with R, with experience in both academia and industry, committed to collaboration and the promotion of open science, data, and software.\n\n\n\nJulia Silge\n\n\n\nJulia Silge is a data scientist and\n    engineering manager at Posit PBC (formerly RStudio),\n    where she works on open source modeling and MLOps tools.\n    She is a tool builder, an author, an international keynote speaker,\n    and a real-world practitioner focusing on data analysis and machine learning.\n    Julia loves text analysis, making beautiful charts,\n    and communicating about technical topics with diverse audiences.\n    You can find her online at her blog (https://juliasilge.com/) \n    e canal do YouTube (https://www.youtube.com/juliasilge).\n\n\n\n\n\nWill Landau\n\n\n\nWill Landau is a statistician and software developer in the\n      life sciences industry. \n      He is specialized in the computational aspects of Bayesian statistics\n      and reproducible research,\n      and he is the creator and maintainer of the targets and crew R packages."
   },
   {
     "objectID": "cronograma/conferencistas/index.html",
     "href": "cronograma/conferencistas/index.html",
     "title": "Conferencias",
     "section": "",
-    "text": "En esta sexta edición de la conferencia contaremos con la presencia de cuatro oradores que son referentes en el área de programación con R, con experiencia tanto en el ámbito académico como en la industria y en organizaciones de la sociedad civil. Se destacan por su compromiso con la colaboración y la promoción de ciencia, datos y sofware abiertos."
+    "text": "En esta séptima edición de la conferencia contaremos con la presencia de oradores que son referentes en el área de programación con R, con experiencia tanto en el ámbito académico como en la industria y en organizaciones de la sociedad civil. Se destacan por su compromiso con la colaboración y la promoción de ciencia, datos y sofware abiertos.\n\n\n\nJulia Silge\n\n\n\nJulia Silge es una científica de datos y\n    gerente de ingeniería en Posit PBC (anteriormente RStudio),\n    donde trabaja en herramientas de modelado de código abierto y MLOps.\n    Es creadora de herramientas, autora,\n    oradora principal internacional y practicante en el mundo real,\n    enfocada en el análisis de datos y el aprendizaje automático.\n    A Julia le encanta el análisis de texto,\n    hacer gráficos hermosos y comunicar temas técnicos a audiencias diversas.\n    Puedes encontrarla en línea en su blog (https://juliasilge.com/) \n    y YouTube (https://www.youtube.com/juliasilge).\n\n\n\n\n\nWill Landau\n\n\n\nWill Landau es un estadístico y desarrollador\n      de software en la industria en life sciences.\n      Está especializado en los aspectos computacionales de la estadística\n      bayesiana y en la investigación reproducible, además de ser el creador\n      y mantenedor de los paquetes targets y crew en R."
   },
   {
     "objectID": "cronograma/tutoriales/workshops-pt.html",
