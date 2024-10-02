@@ -1,13 +1,5 @@
 [
   {
-    "listing": "/sobre/apoyo/sponsors.html",
-    "items": []
-  },
-  {
-    "listing": "/sobre/apoyo/index.html",
-    "items": []
-  },
-  {
     "listing": "/index.html",
     "items": [
       "/blog/es/2024-08-02-divide-y-venceras-de-polar-al-polarverse.html",
@@ -59,10 +51,6 @@
       "/blog/pt/2020-01-13-chamada-trabalhos.html",
       "/blog/pt/2018-01-15-cdc-pt.html"
     ]
-  },
-  {
-    "listing": "/sobre/apoyo/apoio.html",
-    "items": []
   },
   {
     "listing": "/blog/es/index.html",
