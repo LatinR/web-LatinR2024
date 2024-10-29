@@ -47,7 +47,7 @@ Recomendamos que você participe de ambas as sessões, se possível, mas não h�
 
 Haverá uma breve introdução (\~10 minutos) no início de cada sessão em inglês, espanhol e português.
 
-Usaremos o canal "r-dev-day" no Slack do LatinR para discussões relacionadas - o uso de inglês, espanhol ou português é bem-vindo.
+Usaremos o canal "r-dev-day" no [Slack da LatinR](https://join.slack.com/t/latin-r/shared_invite/zt-2tespojdh-OpXaVcnzOY_SETtv9hqRSQ) para discussões relacionadas - o uso de inglês, espanhol ou português é bem-vindo.
 
 Os grupos menores podem acordar um idioma comum para trabalhar - o inglês será o padrão, mas as pessoas facilitadoras que falam espanhol e português estarão disponíveis para ajudar.
 
