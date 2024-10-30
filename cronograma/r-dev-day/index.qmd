@@ -21,10 +21,10 @@ knitr:
 
 R Dev Day \@ LatinR 2024 es un evento colaborativo donde las personas trabajarán en pequeños grupos para hacer contribuciones a R base, o a la infraestructura que soporta dicha contribución. Ejemplos de posibles contribuciones:
 
--   Traducir mensajes de error cadenasal español/portugués de Brasil
+-   Traducir mensajes de error a español o portugués de Brasil
 -   Proponer mejoras en la documentación de R (contenido que accedemos en `help` o `?` en R)
 -   Analizar un error en R
--   Generar una solución a un error en R
+-   Generar soluciones a un error en R
 -   Añadir contenido a la [Guía de Desarrollo de R](https://contributor.r-project.org/rdevguide/), la guía de contribución para el R base
 -   Mejorar el [Tablero de traducciones de R](https://contributor.r-project.org/translations-dashboard/), el panel utilizado para monitorear el estado de las traducciones
 
@@ -38,15 +38,15 @@ Las sesiones se realizarán el lunes 18 y martes 19 de noviembre, a la misma hor
 |:--------------|:---------------------|:-------------------|
 | 8:30pm - 11pm | 5:30pm - 8pm         | 1:30pm - 4pm       |
 
-Le recomendamos participar de ambas sesiones, pero de no ser posible también puede asistir a una sola sesión.
+Les recomendamos participar en ambas sesiones, pero de no ser posible también puede asistir a una sola.
 
 ## Comunicación
 
-Habrá una breve introducción (\~10 minutos) al comienzo de cada sesión en inglés, español y portugués.
+Habrá una breve introducción (\~10 minutos) al comienzo de cada sesión, se dará en inglés, español y portugués.
 
 Usaremos el canal «r-dev-day» en el [Slack de LatinR](https://join.slack.com/t/latin-r/shared_invite/zt-2tespojdh-OpXaVcnzOY_SETtv9hqRSQ) para discutir sobre las contribuciones - puedes participar en inglés, español o portugués.
 
-Los grupos pequeños pueden acordar un idioma común para trabajar - el inglés será el idioma por defecto, pero facilitadores de habla hispana y portuguesa estarán disponibles para ayudar.
+Los grupos pequeños pueden acordar un idioma común para trabajar - el inglés será el idioma por defecto, pero habrá facilitadores de habla hispana y portuguesa disponibles para ayudar.
 
 ## Tareas
 
@@ -58,7 +58,7 @@ Te pidimos que revises los issues antes de las sesiones. Es posible que necesite
 
 ## Configuración del desarrollo
 
-La mayoría de la gente podrá trabajar directamente desde el explorador (utilizando Weblate, la interfaz del navegador de GitHub, GitHub Codespaces o Gitpod). El trabajo sobre errores específicos a sistemas operativos puede requerir el uso o la compilación de R en tu propia computadora.
+La mayoría de la gente podrá trabajar directamente desde el explorador (utilizando Weblate, la interfaz del navegador de GitHub, GitHub Codespaces o Gitpod). El trabajo sobre errores específicos a ciertos sistemas operativos puede requerir el uso o la compilación de R en tu propia computadora.
 
 ## Preparación
 
@@ -70,7 +70,7 @@ Algunas cosas que puedes hacer para ayudar a prepararte si tienes tiempo:
 
 La sección de [Otros recursos](#otros-recursos) contiene enlaces para aprender más sobre cómo contribuir. Revisar estos enlaces con antelación es totalmente opcional (intentaremos asignarte las tareas en función de tus conocimientos y experiencia actuales), pero te ayudarán a ponerte manos a la obra en el evento.
 
-Si tienes alguna pregunta, no duded en ponerte en contacto con uno de los miembros del comité organizador a través del Slack de LatinR:
+Si tienes alguna pregunta, no dudes en ponerte en contacto con uno de los miembros del comité organizador a través del Slack de LatinR:
 
 | Hablantes de español        | Hablantes de portugués | Hablantes de inglés |
 |-----------------------------|------------------------|---------------------|
