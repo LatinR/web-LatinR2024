@@ -73,7 +73,7 @@ I specialize in time series and classification models in Machine Learning. In ad
 
 #### Learn to analyze large datasets with Arrow, DuckDB & Duckplyr in R.Speed up workflows on your laptop using tidyverse-style data manipulation
 
-### Sobre el curso
+### About the course
 
 **Date** November 19, 2024, 10:00 AM - 12:00 AM (GMT-3)
 
@@ -153,7 +153,7 @@ You should have a computer with R and R Studio installed and up to date. They sh
 
 ### About the course
 
-**Closes November 19, 2024, 6:00 PM - 9:00 PM (GMT-3)
+**Date**: November 19, 2024, 6:00 PM - 9:00 PM (GMT-3)
 
 **Modality**: Online
 
@@ -176,4 +176,111 @@ Students, researchers and professionals at any stage of their career with an int
 
 ### Tutor
 
-**George Amaro is a researcher at the Brazilian Agricultural Research Corporation (Embrapa), in the area of economics and modeling, and is a leader and member of invasive species distribution modeling projects, a reviewer for international journals on the subject, with extensive experience in R and having participated as an author and co-author of several works related to SDM/ENM.
+**George Amaro** is a researcher at the Brazilian Agricultural Research Corporation (Embrapa), in the area of economics and modeling, and is a leader and member of invasive species distribution modeling projects, a reviewer for international journals on the subject, with extensive experience in R and having participated as an author and co-author of several works related to SDM/ENM.
+
+## Optimizando Shiny: Consejos y Trucos de Rendimiento
+
+#### Aprende cómo optimizar el rendimiento de aplicaciones desarrolladas con R Shiny de la mano de expertos de Appsilon.
+
+### About the course
+
+**Date** November 18, 2024, 10:00 AM - 1:00 PM (GMT-3)
+
+**Modalidad**: Online
+
+**Enrollment**: [https://www.eventbrite.cl/e/optimizando-shiny-consejos-y-trucos-de-rendimiento-tickets-1045595392967](https://www.eventbrite.cl/e/optimizando-shiny-consejos-y-trucos-de-rendimiento-tickets-1045595392967)
+
+**Language:** Spanish
+
+En este workshop, exploraremos cómo optimizar el rendimiento de aplicaciones desarrolladas con R Shiny, desde mejorar la velocidad de respuesta hasta la escalabilidad.
+
+A través de ejemplos prácticos y técnicas avanzadas, identificaremos los cuellos de botella más comunes, para minimizar tiempos de carga y gestionar grandes volúmenes de datos de manera eficiente.
+
+También abordaremos las mejores prácticas para optimizar tanto el código como la estructura de la aplicación, incluyendo el uso adecuado de reactividad, carga de datos, y comunicación con el navegador.
+
+Al finalizar el taller, tendrás las herramientas necesarias para transformar tus aplicaciones Shiny, haciéndolas más rápidas, ligeras y listas para brindar una mejor experiencia de usuario.
+
+
+Este taller está dirigido a desarrolladores y analistas que buscan mejorar el rendimiento de sus aplicaciones Shiny, con un enfoque práctico y orientado a resultados.
+
+### Requirements
+
+R 4.1.0 o mayor, RStudio instalado. 8GB RAM (deseable), internet estable (deseable). Git instalado (deseable). Alternativamente, tener una cuenta en posit.cloud.
+
+### Tutor
+
+**Samuel Calderon** actualmente trabaja como R shiny developer en Appsilon. Previamente, su desempeño profesional ha sido en el sector público peruano, participando en iniciativas de recojo, análisis y sistematización de información con miras a mejorar la calidad de los servicios brindados a la ciudadanía en temas de lucha contra el tráfico ilícito de drogas, mejora de la calidad de la educación superior universitaria, lucha contra la corrupción y medición de la pobreza monetaria.
+
+Linkedin: <https://www.linkedin.com/in/samuelcalderon/>
+
+## Despliegue Continuo con R, GitHub y Quarto: Implementando Buenas Prácticas
+
+#### Aprende cómo implementar un flujo de trabajo de despliegue continuo para modelos de datos en R utilizando GitHub y Quarto
+
+### About the course
+
+**Date**: November 18, 2024, 06:00 PM - 08:00 PM (GMT-3)
+
+**Modalidad**: Online
+
+**Enrollment**: [https://www.eventbrite.cl/e/despliegue-continuo-con-r-github-y-quarto-implementando-buenas-practicas-tickets-1046364954747](https://www.eventbrite.cl/e/despliegue-continuo-con-r-github-y-quarto-implementando-buenas-practicas-tickets-1046364954747)
+
+**Language:** Spanish
+
+Este taller tiene como objetivo enseñar a los participantes a implementar un flujo de trabajo de despliegue continuo para modelos de datos en R utilizando GitHub y Quarto. Al final de la sesión, los asistentes serán capaces de:
+
+Configurar un entorno de R en GitHub Actions para automatizar la ejecución de scripts.
+Instalar y gestionar dependencias de R de manera eficiente.
+Generar y renderizar informes en Quarto, facilitando la presentación de resultados.
+Integrar buenas prácticas de DevOps en sus flujos de trabajo para mejorar la colaboración y la calidad del código.
+
+La relevancia de este taller radica en la creciente necesidad de automatización en el análisis de datos y la ciencia de datos. Aprender a utilizar GitHub Actions y Quarto no solo optimiza el trabajo en equipo, sino que también permite a los participantes implementar soluciones robustas y escalables para la evaluación de métricas y el análisis de resultados. Este conocimiento es fundamental para quienes buscan mejorar la reproducibilidad de sus proyectos y la eficiencia de sus procesos de análisis.
+
+
+El taller está dirigido a profesionales y estudiantes de áreas como ciencia de datos, estadística, análisis de datos y programación en R. También es relevante para investigadores y desarrolladores interesados en optimizar sus flujos de trabajo mediante la automatización y la implementación de buenas prácticas de DevOps.
+
+Los participantes deben tener conocimientos básicos de programación en R y familiaridad con Git y GitHub. También es recomendable que tengan conocimientos basicos en generación de documentos en R, ya sea usando Rmarkdown o Quarto.
+
+### Requirements
+
+Para participar de forma óptima en el taller de Despliegue Continuo con R, GitHub y Quarto, los asistentes deben contar con una computadora portátil (Windows, macOS o Linux) y tener instalado el software necesario, que incluye R, RStudio, Git y Quarto. Además, es importante tener acceso a Internet y una cuenta de GitHub previamente creada. Se recomienda asegurarse de tener acceso a los archivos de ejemplo que se utilizarán durante el taller. Aunque no es estrictamente necesario, tener conocimientos básicos de R y Git, así como familiaridad con Markdown, será útil para aprovechar al máximo la experiencia.
+
+### Tutor
+
+**Sebastián Egaña Santibáñez** es Magíster en Finanzas por la Universidad de Chile, Licenciado en Filosofía por la Universidad Alberto Hurtado y Ingeniero Comercial por la Universidad Santo Tomás, Chile.
+
+Es un profesional destacado en Ciencia de Datos, con una sólida trayectoria como docente universitario y experiencia en asesoría especializada. Ha contribuido significativamente a la formación académica y a la aplicación práctica del análisis de datos, ofreciendo soluciones innovadoras y estratégicas en diversos contextos.
+
+## Desarrollo de Paquetes en R: Desde la Idea hasta la Implementación
+
+#### Aprende cómo desarrollar paquetes de R, como implementarlos y distribuirlos.
+
+### About the course
+
+**Date**: November 19, 2024, 10:00 AM - 1:00 PM (GMT-3)
+
+**Modalidad**: Online
+
+**Enrollment**: [https://www.eventbrite.cl/e/despliegue-continuo-con-r-github-y-quarto-implementando-buenas-practicas-tickets-1046364954747](https://www.eventbrite.cl/e/despliegue-continuo-con-r-github-y-quarto-implementando-buenas-practicas-tickets-1046364954747)
+
+**Language:** Spanish
+
+Este taller ofrece una guía integral sobre el desarrollo de paquetes en R, cubriendo todo el proceso, desde la concepción de la idea hasta la implementación técnica y la distribución en plataformas como CRAN.
+
+El objetivo es brindar a los asistentes una comprensión clara y práctica de cómo crear un paquete en R que cumpla con los estándares de calidad y pueda ser utilizado por la comunidad científica y de desarrollo.
+
+A lo largo de la presentación, exploraremos las mejores prácticas para el diseño, documentación, pruebas, y publicación de paquetes. Se proporcionarán ejemplos y demostraciones en vivo para que los asistentes puedan adquirir habilidades prácticas aplicables en sus propios proyectos.
+
+El tutorial esta enfocado en usuario de R, desarrolladores de R, investigadores, científicos de datos y profesionales de otras disciplinas que pueden tomar su conocimiento, experiencias y datos y convertirlos en un paquete de R para su publicación en el CRAN.
+
+
+### Requirements
+
+PC o Laptop con R, RStudio y RTools (windows) instalados, paquetes: devtools, available, usethis, testthat.
+
+### Tutor
+
+**Renzo Cáceres Rossi**, es un especialista en el lenguaje de programación R, ya ha participado en el Latin R 2022 con la ponencia Introducción a RMarkdown, ha dictado tutoriales, conferencias en diversas universidades en Latinoamérica a través del IEEE.
+
+Es creador de contenido sobre ciencia de datos a través de su canal de YouTube
+<https://www.youtube.com/c/RenzoCaceresRossi>
