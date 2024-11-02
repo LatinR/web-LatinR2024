@@ -17,9 +17,9 @@ knitr:
 
 **Modalidad**: Online
 
-**Inscripción**: [https://www.eventbrite.com.ar/e/1045617188157](https://www.eventbrite.com.ar/e/1045617188157)
-
 **Idioma:** Español
+
+**Inscripción**: [Introducción a Github](https://www.eventbrite.com.ar/e/1045617188157)
 
 Este taller está diseñado para introducir a investigadoras/es a GitHub, una potente plataforma para el control de versiones y la colaboración. Los participantes aprenderán los fundamentos del uso de GitHub para gestionar sus proyectos de investigación, incluyendo cómo crear y gestionar repositorios, realizar un seguimiento de los cambios y colaborar con otras personas.
 Los objetivos específicos de aprendizaje incluyen:
@@ -34,10 +34,7 @@ Al final del taller, los participantes serán capaces de integrar GitHub en sus 
 Este tutorial está dirigido a investigadoras/es de todas las disciplinas interesados en mejorar sus habilidades de gestión de proyectos y colaboración utilizando GitHub. Es ideal para quienes forman parte de equipos o grupos de investigación, con cierta familiaridad con los flujos de trabajo de investigación, pero no se requiere experiencia previa con GitHub.
 
 ### Requisitos
-Los participantes deben disponer de un ordenador/portátil con acceso a Internet y almacenamiento suficiente para instalar Git. Deberán tener Git instalado y una cuenta de GitHub creada antes del taller.
-- Instalar Git: [https://git-scm.com/](https://git-scm.com/)
-- Crear una cuenta gratuita de GitHub: [https://github.com/](https://github.com/)
-
+Los participantes deben disponer de un ordenador o portátil con acceso a Internet y almacenamiento suficiente para instalar Git. Deberán tener [Git instalado](https://git-scm.com/) y una [cuenta de GitHub](https://github.com/) creada antes del taller.
 
 ### Tutoras
 
@@ -57,9 +54,9 @@ Los participantes deben disponer de un ordenador/portátil con acceso a Internet
 
 **Modalidad**: Online
 
-**Inscripción**: [https://www.eventbrite.com.ar/e/1045614801017](https://www.eventbrite.com.ar/e/1045614801017)
+**Idioma:** Español 
 
-**Idioma:** Español
+**Inscripción**: [Análisis de Datos Satelitales en R](https://www.eventbrite.com.ar/e/1045614801017)
 
 El análisis de datos satelitales en R, combinado con técnicas de Machine Learning, abre nuevas oportunidades para interpretar y aprovechar la información geoespacial.
 En este tutorial se abordarán aplicaciones prácticas utilizando R para procesar y analizar imágenes satelitales. Se demostrará cómo aprovechar librerías especializadas en R, como raster, sf y caret, para manipular datos espaciales y construir modelos predictivos. El uso de Machine Learning permitirá identificar patrones en grandes conjuntos de datos satelitales, aplicando algoritmos como árboles de decisión, SVM y Random Forest.
@@ -85,9 +82,9 @@ Mi especializo en modelos de series de tiempo y de clasificación en Machine Lea
 
 **Modalidad**: Online
 
-**Inscripción**: [https://www.eventbrite.com.ar/e/1044938257457](https://www.eventbrite.com.ar/e/1044938257457)
+**Idioma:** Inglés 
 
-**Idioma:** Inglés
+**Inscripción**: [Tutorial con Arrow y DuckDB](https://www.eventbrite.com.ar/e/1044938257457)
 
 Mientras que los conjuntos de datos son cada vez mayores, los recientes avances en tecnologías como Apache Arrow y DuckDB están poniendo al alcance de cualquiera el análisis de conjuntos de datos que antes requerían una infraestructura compleja.
 
@@ -105,11 +102,11 @@ Este tutorial está dirigido a todos aquellos que necesiten analizar conjuntos d
 Los participantes que no tengan acceso a HPC se beneficiarán especialmente de este tutorial, ya que las herramientas utilizadas pueden instalarse fácilmente en un ordenador portátil normal y proporcionar un buen rendimiento.
 
 ### Requisitos
-Los participantes ya deben estar familiarizados con la manipulación de datos con el {tidyverse} (saber utilizar los 5 verbos más comunes de {dplyr} para el análisis de datos: mutate(), select(), filter(), summarize(), arrange() combinados con group_by()).
+Los participantes deben estar familiarizados con la manipulación de datos con el {tidyverse} y saber utilizar los 5 verbos más comunes de {dplyr} para el análisis de datos: mutate(), select(), filter(), summarize(), arrange() combinados con group_by().
 
-**Software**: R >= 4.1.0
+- **Software**: R >= 4.1.0
 
-**paquetes**: arrow, duckdb, duckplyr, tidyverse, tictoc.
+- **Paquetes**: arrow, duckdb, duckplyr, tidyverse, tictoc.
 
 ### Tutor
 
@@ -126,9 +123,9 @@ Los participantes ya deben estar familiarizados con la manipulación de datos co
 
 **Modalidad**: Online
 
-**Inscripción**:  [https://www.eventbrite.com.ar/e/1045608201277](https://www.eventbrite.com.ar/e/1045608201277)
+**Idioma:** Español  
 
-**Idioma:** Español
+**Inscripción**:  [Llevá tus gráficos con ggplot2 al siguiente nivel](https://www.eventbrite.com.ar/e/1045608201277)
 
 Crear visualizaciones claras, informativas y cautivantes es una labor indiscutida dentro del análisis de datos, tanto dentro de la academia como de la industria. Sin embargo, la amplia mayoría de los tutoriales o de los cursos iniciales de R suelen explicar solamente cómo funciona la gramática de gráficos de ggplot2, sin abarcar la potencialidad de los parámetros estéticos que ayudan a comunicar de forma no verbal el objetivo del gráfico. En este taller vamos a mostrar cómo editar el texto y los colores, tanto de forma específica como a partir del uso de paletas, y cómo adaptar el gráfico a criterios específicos de publicación.
 
@@ -144,9 +141,7 @@ El tutorial está destinado a un público amplio que busque llevar sus gráficos
 
 ### Requisitos
 
-Para poder seguir sin problemas las actividades del tutorial, es necesario tener algún grado de experiencia, aunque sea inicial, con R y RStudio y con el paquete ggplot2.
-
-Deberán tener una computadora con R y R Studio instalados y actualizados. También deberán instalar el paquete tidyverse, que incluye al paquete ggplot2, sobre el cual tratará el curso.
+Para seguir sin problemas las actividades del tutorial, es necesario tener algún grado de experiencia, aunque sea inicial, con R y RStudio y con el paquete ggplot2. Además deberán tener una computadora con R y R Studio instalados y actualizados. Al igual que el paquete tidyverse, que incluye al paquete ggplot2, sobre el cual tratará el curso.
 
 ### Tutoras
 
@@ -165,22 +160,23 @@ Deberán tener una computadora con R y R Studio instalados y actualizados. Tambi
 
 **Modalidad**: Online
 
-**Inscripción**: [https://www.eventbrite.com.ar/e/1045601130127](https://www.eventbrite.com.ar/e/1045601130127)
+**Idioma:** Portugués 
 
-**Idioma:** Portugués
+**Inscripción**: [Tutorial de modelización de nichos ecológicos](https://www.eventbrite.com.ar/e/1045601130127)
 
 El tutorial cubrirá la teoría básica de la modelización de nichos ecológicos (ENM) y la modelización de la distribución de especies (SDM) y sus principales metodologías. Al final del curso, predominantemente práctico, los participantes tendrán la capacidad de ejecutar los modelos y comprender sus resultados, así como de elegir y aplicar la metodología correcta en función del objetivo de su tipo de estudio y de los datos. La tutoría será principalmente práctica, con algunos momentos teóricos. Todos los procesos de modelización, cálculos, gráficos y mapas se llevarán a cabo con R. Los participantes aprenderán a utilizar el algoritmo de modelización Maxent, a través del paquete {flexsdm} para desarrollar los modelos y se utilizará el paquete {tmap} para generar mapas.
 
 ### Objetivos:
-  1. presentar las bases teóricas de los modelos que se pueden utilizar;
-  2. discutir las ventajas y limitaciones de los modelos en el contexto de diferentes aplicaciones;
-  3. presentar cómo realizar correctamente un estudio de modelización del nicho ecológico o de la distribución de especies con distintos fines;
-  4. Iniciar en el uso de la modelización de la distribución geográfica de especies utilizando R;
+   - Presentar las bases teóricas de los modelos que se pueden utilizar;
+   - Discutir las ventajas y limitaciones de los modelos en el contexto de diferentes aplicaciones;
+   - Presentar cómo realizar correctamente un estudio de modelización del nicho ecológico o de la distribución de especies con distintos fines;
+   - Iniciar en el uso de la modelización de la distribución geográfica de especies utilizando R;
 
 Estudiantes, investigadores y profesionales en cualquier etapa de su carrera con interés en desarrollar y aplicar la modelización de distribución de especies y/o nicho ecológico de forma reproducible y automatizada. Los participantes deben estar acostumbrados a trabajar con ordenadores, tener una buena conexión a Internet y, preferiblemente, una cámara web, ya que las sesiones en línea en directo están destinadas a ser altamente interactivas. Se recomienda tener experiencia básica con R, aunque no es estrictamente obligatorio. Todos los scripts de R serán proporcionados y explicados en detalle.
 
 ### Requisitos
-- Última versión de R y RStudio y paquetes que se enviarán por correo electrónico. 32MB RAM deseable, pero es posible ejecutar el script con 16MB.
+
+Última versión de R y RStudio y paquetes que se enviarán por correo electrónico. 32MB RAM deseable, pero es posible ejecutar el script con 16MB.
 
 ### Tutor
 
@@ -197,7 +193,7 @@ Estudiantes, investigadores y profesionales en cualquier etapa de su carrera con
 
 **Modalidad**: Online
 
-**Inscripción**: [https://www.eventbrite.cl/e/optimizando-shiny-consejos-y-trucos-de-rendimiento-tickets-1045595392967](https://www.eventbrite.cl/e/optimizando-shiny-consejos-y-trucos-de-rendimiento-tickets-1045595392967)
+**Inscripción**: [Optimizando Shiny: consejos y trucos de rendimiento](https://www.eventbrite.cl/e/optimizando-shiny-consejos-y-trucos-de-rendimiento-tickets-1045595392967)
 
 **Idioma:** Español
 
@@ -218,9 +214,7 @@ R 4.1.0 o mayor, RStudio instalado. 8GB RAM (deseable), internet estable (deseab
 
 ### Tutor
 
-**Samuel Calderon** actualmente trabaja como R shiny developer en Appsilon. Previamente, su desempeño profesional ha sido en el sector público peruano, participando en iniciativas de recojo, análisis y sistematización de información con miras a mejorar la calidad de los servicios brindados a la ciudadanía en temas de lucha contra el tráfico ilícito de drogas, mejora de la calidad de la educación superior universitaria, lucha contra la corrupción y medición de la pobreza monetaria.
-
-Linkedin: <https://www.linkedin.com/in/samuelcalderon/>
+[**Samuel Calderon**](https://www.linkedin.com/in/samuelcalderon/) actualmente trabaja como R shiny developer en Appsilon. Previamente, su desempeño profesional ha sido en el sector público peruano, participando en iniciativas de recojo, análisis y sistematización de información con miras a mejorar la calidad de los servicios brindados a la ciudadanía en temas de lucha contra el tráfico ilícito de drogas, mejora de la calidad de la educación superior universitaria, lucha contra la corrupción y medición de la pobreza monetaria.
 
 ## Despliegue Continuo con R, GitHub y Quarto: Implementando Buenas Prácticas
 
@@ -232,7 +226,7 @@ Linkedin: <https://www.linkedin.com/in/samuelcalderon/>
 
 **Modalidad**: Online
 
-**Inscripción**: [https://www.eventbrite.cl/e/despliegue-continuo-con-r-github-y-quarto-implementando-buenas-practicas-tickets-1046364954747](https://www.eventbrite.cl/e/despliegue-continuo-con-r-github-y-quarto-implementando-buenas-practicas-tickets-1046364954747)
+**Inscripción**: [Despliegue continuo con R, Github y Quarto](https://www.eventbrite.cl/e/despliegue-continuo-con-r-github-y-quarto-implementando-buenas-practicas-tickets-1046364954747)
 
 **Idioma:** Español
 
@@ -270,7 +264,7 @@ Es un profesional destacado en Ciencia de Datos, con una sólida trayectoria com
 
 **Modalidad**: Online
 
-**Inscripción**: [https://www.eventbrite.cl/e/despliegue-continuo-con-r-github-y-quarto-implementando-buenas-practicas-tickets-1046364954747](https://www.eventbrite.cl/e/despliegue-continuo-con-r-github-y-quarto-implementando-buenas-practicas-tickets-1046364954747)
+**Inscripción**: [Desarrollo de Paquetes en R](https://www.eventbrite.cl/e/desarrollo-de-paquetes-en-r-desde-la-idea-hasta-la-implementacion-tickets-1046361845447)
 
 **Idioma:** Español
 
@@ -285,11 +279,10 @@ El tutorial esta enfocado en usuario de R, desarrolladores de R, investigadores,
 
 ### Requisitos
 
-PC o Laptop con R, RStudio y RTools (windows) instalados, paquetes: devtools, available, usethis, testthat.
+PC o Laptop con R, RStudio y RTools (windows) instalados y paquetes: devtools, available, usethis, testthat.
 
 ### Tutor
 
 **Renzo Cáceres Rossi**, es un especialista en el lenguaje de programación R, ya ha participado en el Latin R 2022 con la ponencia Introducción a RMarkdown, ha dictado tutoriales, conferencias en diversas universidades en Latinoamérica a través del IEEE.
 
-Es creador de contenido sobre ciencia de datos a través de su canal de YouTube
-<https://www.youtube.com/c/RenzoCaceresRossi>
+Es creador de contenido sobre ciencia de datos a través de [su canal de YouTube.](https://www.youtube.com/c/RenzoCaceresRossi)
