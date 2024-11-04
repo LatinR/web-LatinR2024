@@ -261,6 +261,7 @@ Es un profesional destacado en Ciencia de Datos, con una sólida trayectoria com
 
 **Modalidade**: Online
 
+
 **Inscrição**: [Desenvolvimento de pacotes em R](https://www.eventbrite.cl/e/desarrollo-de-paquetes-en-r-desde-la-idea-hasta-la-implementacion-tickets-10463618454477)
 
 **Idioma:** Espanhol
@@ -282,4 +283,6 @@ PC o Laptop con R, RStudio y RTools (windows) instalados, paquetes: devtools, av
 
 **Renzo Cáceres Rossi**, es un especialista en el lenguaje de programación R, ya ha participado en el Latin R 2022 con la ponencia Introducción a RMarkdown, ha dictado tutoriales, conferencias en diversas universidades en Latinoamérica a través del IEEE.
 
+
 Es creador de contenido sobre ciencia de datos a través de su canal de [YouTube.](https://www.youtube.com/c/RenzoCaceresRossi)
+

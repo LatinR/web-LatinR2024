@@ -261,7 +261,9 @@ Es un profesional destacado en Ciencia de Datos, con una sólida trayectoria com
 
 **Modalidad**: Online
 
+
 **Enrollment**: [Desarrollo de Paquetes en R](https://www.eventbrite.cl/e/desarrollo-de-paquetes-en-r-desde-la-idea-hasta-la-implementacion-tickets-1046361845447)
+
 
 **Language:** Spanish
 
