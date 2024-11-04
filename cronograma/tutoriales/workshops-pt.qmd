@@ -15,7 +15,7 @@ knitr:
 
 **Data** 18 de novembro de 2024, das 14:00 às 17:00 (GMT-3)
 
-**Modo**: Online
+**Modalidade**: Online
 
 **Inscrição**: [https://www.eventbrite.com.ar/e/1045617188157](https://www.eventbrite.com.ar/e/1045617188157)
 
@@ -53,7 +53,7 @@ Os participantes devem ter um computador/laptop com acesso à Internet e armazen
 
 **Data** 18 de novembro de 2024, das 18:00 às 20:00 (GMT-3)
 
-**Modo**: Online
+**Modalidade**: Online
 
 **Inscrição**: [https://www.eventbrite.com.ar/e/1045614801017](https://www.eventbrite.com.ar/e/1045614801**017)
 
@@ -119,7 +119,7 @@ Os participantes já devem estar familiarizados com a manipulação de dados com
 
 **Data** 19 de novembro de 2024, das 14:00 às 16:30 (GMT-3)
 
-**Modo**: Online
+**Modalidade**: Online
 
 **Inscrição**: [https://www.eventbrite.com.ar/e/1045608201277](https://www.eventbrite.com.ar/e/1045608201277)
 
@@ -156,7 +156,7 @@ Para seguir as actividades do tutorial sem problemas, é necessário ter alguma 
 
 **Data** 19 de Noviembre de 2024, 6:00 PM - 9:00 PM (GMT-3)
 
-**Modo**: Online
+**Modalidade**: Online
 
 **Inscrição**:  [https://www.eventbrite.com.ar/e/1045601130127](https://www.eventbrite.com.ar/e/1045601130127)
 

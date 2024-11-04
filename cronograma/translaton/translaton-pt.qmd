@@ -1,0 +1,40 @@
+---
+title: "Tradução + Hackathon = Traslaton rOpenSci"
+knitr:
+  opts_chunk:
+    echo: false
+    message: false
+    warning: false
+---
+
+**Data**: Segunda-feira, 18 de novembro de 2024, 10:00 - 12:00 UTC-3
+
+**Modalidade**: Online
+
+**Inscrição**: <https://www.eventbrite.cl/e/traducao-hackathon-traslaton-ropensci-tickets-1045507530167>
+
+**Idiomas:** Português
+
+**Sobre:**
+
+O Traslaton rOpenSci é realizado em conjunto com a LatinR
+
+O objetivo é que a comunidade do R conheça a [rOpenSci](https://ropensci.org/) e se reúna para aprender como contribuir com o projeto de tradução ativa do rOpenSci para o português e fazer contribuições durante o Traslatón.
+
+Várias pessoas da comunidade estarão presentes durante as duas horas do evento online para ajudá-lo durante sua contribuição.
+
+
+**Agenda:**
+
+- Começaremos com uma explicação de como funciona o processo de tradução, como fazer uma segunda revisão e onde sua ajuda é necessária para progredir na tradução.
+
+- Em seguida, trabalharemos em blocos de 30 minutos e nos reuniremos para ver o progresso que fizemos.
+
+- Explicaremos o processo da primeira revisão, indicaremos onde essa tarefa é necessária e depois voltaremos ao trabalho por 30 minutos.
+
+- Por fim, nos reuniremos novamente para analisar o progresso e organizar como continuaremos a trabalhar.
+
+
+Trabalharemos com o [Guia de desenvolvimento de pacotes do rOpenSci](https://devguide.ropensci.org/).
+
+Todas as pessoas que contribuírem para a tradução serão adicionadas como autoras dessa tradução quando a primeira versão do trabalho final for publicada. As pessoas colaboradoras serão convidadas a participar do rOpenSci Slack.

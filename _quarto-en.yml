@@ -49,7 +49,9 @@ website:
           - text: "Workshops"
             href: cronograma/tutoriales/workshops.qmd
           - text: "R Dev Day"
-            href: cronograma/r-dev-day/rdevday-en.qmd                
+            href: cronograma/r-dev-day/rdevday-en.qmd
+          - text: "Traslaton rOpenSci"
+            href: cronograma/translaton/translaton-en.qmd            
           # - text: "Regular Talks"
           #   href: cronograma/programa/presentaciones.qmd 
           # - text: "Posters"
