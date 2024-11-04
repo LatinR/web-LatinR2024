@@ -23,7 +23,7 @@ knitr:
 
 
 Este workshop foi concebido para apresentar aos investigadores o GitHub, uma plataforma poderosa para controlo de versões e colaboração. Os participantes aprenderão os conceitos básicos do uso do GitHub para gerenciar seus projetos de pesquisa, incluindo como criar e gerenciar repositórios, rastrear alterações e colaborar com outras pessoas.
-Os objectivos específicos de aprendizagem incluem:
+Os Objetivos específicos de aprendizagem incluem:
   - Compreender os conceitos básicos de controlo de versões e como se aplicam aos fluxos de trabalho de investigação.
   - Ganhar experiência prática na criação e gestão de repositórios GitHub.
   - Explorar a utilização do GitHub Issues e Projects para gerir tarefas de investigação e comunicação dentro das equipas de investigação.
@@ -130,7 +130,7 @@ Criar visualizações claras, informativas e envolventes é uma tarefa indiscut�
 #### Objetivo geral de aprendizagem:
 Os participantes podem adaptar os seus gráficos aos requisitos de publicação de uma revista ou outro formato académico.
 
-### Objectivos específicos de aprendizagem:
+### Objetivos específicos de aprendizagem:
 Os participantes podem modificar os elementos textuais dos gráficos.
 Os participantes podem editar o aspeto dos gráficos através da seleção de cores específicas e da utilização de paletas.
 Os participantes podem especificar as dimensões de exportação dos gráficos.
@@ -180,13 +180,13 @@ Estudantes, pesquisadores e profissionais em qualquer estágio da carreira com i
 
 **George Amaro**, é pesquisador da Empresa Brasileira de Pesquisa Agropecuária (Embrapa), na área de economia e modelagem, sendo líder e membro de projetos de modelagem de distribuição de espécies invasoras, revisor de periódicos internacionais sobre o tema, tendo vasta experiência em R e tendo participado como autor e co-autor de vários trabalhos relacionados a SDM/ENM.
 
-## Optimizando Shiny: Consejos y Trucos de Rendimiento
+## Otimizando Shiny: Dicas e Truques de Desempenho
 
-#### Aprende cómo optimizar el rendimiento de aplicaciones desarrolladas con R Shiny de la mano de expertos de Appsilon.
+#### Aprenda como otimizar o desempenho de aplicações desenvolvidas com R Shiny com especialistas da Appsilon.
 
 ### Sobre o curso
 
-**Data** 18 de noviembre de 2024, 10:00 AM - 1:00 PM (GMT-3)
+**Data**: 18 de novembro de 2024, 10:00 AM - 1:00 PM (GMT-3)
 
 **Modalidade**: Online
 
@@ -194,32 +194,31 @@ Estudantes, pesquisadores e profissionais em qualquer estágio da carreira com i
 
 **Idioma:** Espanhol
 
-En este workshop, exploraremos cómo optimizar el rendimiento de aplicaciones desarrolladas con R Shiny, desde mejorar la velocidad de respuesta hasta la escalabilidad.
+Neste workshop, exploraremos como otimizar o desempenho de aplicações desenvolvidas com R Shiny, desde melhorar a velocidade de resposta até a escalabilidade.
 
-A través de ejemplos prácticos y técnicas avanzadas, identificaremos los cuellos de botella más comunes, para minimizar tiempos de carga y gestionar grandes volúmenes de datos de manera eficiente.
+Por meio de exemplos práticos e técnicas avançadas, identificaremos os gargalos mais comuns, para minimizar tempos de carregamento e gerenciar grandes volumes de dados de forma eficiente.
 
-También abordaremos las mejores prácticas para optimizar tanto el código como la estructura de la aplicación, incluyendo el uso adecuado de reactividad, carga de datos, y comunicación con el navegador.
+Também abordaremos as melhores práticas para otimizar tanto o código quanto a estrutura da aplicação, incluindo o uso adequado de reatividade, carga de dados e comunicação com o navegador.
 
-Al finalizar el taller, tendrás las herramientas necesarias para transformar tus aplicaciones Shiny, haciéndolas más rápidas, ligeras y listas para brindar una mejor experiencia de usuario.
+Ao final do workshop, você terá as ferramentas necessárias para transformar suas aplicações Shiny, tornando-as mais rápidas, leves e prontas para oferecer uma melhor experiência ao usuário.
 
-
-Este taller está dirigido a desarrolladores y analistas que buscan mejorar el rendimiento de sus aplicaciones Shiny, con un enfoque práctico y orientado a resultados.
+Este workshop é direcionado a desenvolvedores e analistas que buscam melhorar o desempenho de suas aplicações Shiny, com um foco prático e orientado a resultados.
 
 ### Requisitos
 
-R 4.1.0 o mayor, RStudio instalado. 8GB RAM (deseable), internet estable (deseable). Git instalado (deseable). Alternativamente, tener una cuenta en posit.cloud.
+R 4.1.0 ou superior, RStudio instalado. 8GB RAM (desejável), internet estável (desejável). Git instalado (desejável). Alternativamente, ter uma conta no <posit.cloud> .
 
 ### Tutor
 
-[**Samuel Calderon**](https://www.linkedin.com/in/samuelcalderon/) actualmente trabaja como R shiny developer en Appsilon. Previamente, su desempeño profesional ha sido en el sector público peruano, participando en iniciativas de recojo, análisis y sistematización de información con miras a mejorar la calidad de los servicios brindados a la ciudadanía en temas de lucha contra el tráfico ilícito de drogas, mejora de la calidad de la educación superior universitaria, lucha contra la corrupción y medición de la pobreza monetaria.
+[**Samuel Calderon**](https://www.linkedin.com/in/samuelcalderon/) atualmente trabalha como desenvolvedor R Shiny na Appsilon. Anteriormente, atuou no setor público peruano, participando em iniciativas de coleta, análise e sistematização de informações para melhorar a qualidade dos serviços prestados à população em temas como combate ao tráfico ilícito de drogas, melhoria da qualidade da educação superior universitária, combate à corrupção e medição da pobreza monetária.
 
-## Despliegue Continuo con R, GitHub y Quarto: Implementando Buenas Prácticas
+## Deploy Contínuo com R, GitHub e Quarto: Implementando Boas Práticas
 
-#### Aprende cómo implementar un flujo de trabajo de despliegue continuo para modelos de datos en R utilizando GitHub y Quarto
+#### Aprenda como implementar um fluxo de trabalho de deploy contínuo para modelos de dados em R usando GitHub e Quarto.
 
 ### Sobre o curso
 
-**Data** 18 de noviembre de 2024, 06:00 PM - 08:00 PM (GMT-3)
+**Data**: 18 de novembro de 2024, 06:00 PM - 08:00 PM (GMT-3)
 
 **Modalidade**: Online
 
@@ -227,37 +226,37 @@ R 4.1.0 o mayor, RStudio instalado. 8GB RAM (deseable), internet estable (deseab
 
 **Idioma:** Espanhol
 
-Este taller tiene como objetivo enseñar a los participantes a implementar un flujo de trabajo de despliegue continuo para modelos de datos en R utilizando GitHub y Quarto. Al final de la sesión, los asistentes serán capaces de:
+Este workshop tem como objetivo ensinar os participantes a implementar um fluxo de trabalho de Deploy contínuo para modelos de dados em R usando GitHub e Quarto. Ao final da sessão, os participantes serão capazes de:
 
-Configurar un entorno de R en GitHub Actions para automatizar la ejecución de scripts.
-Instalar y gestionar dependencias de R de manera eficiente.
-Generar y renderizar informes en Quarto, facilitando la presentación de resultados.
-Integrar buenas prácticas de DevOps en sus flujos de trabajo para mejorar la colaboración y la calidad del código.
+  - Configurar um ambiente de R no GitHub Actions para automatizar a execução de scripts. 
 
-La relevancia de este taller radica en la creciente necesidad de automatización en el análisis de datos y la ciencia de datos. Aprender a utilizar GitHub Actions y Quarto no solo optimiza el trabajo en equipo, sino que también permite a los participantes implementar soluciones robustas y escalables para la evaluación de métricas y el análisis de resultados. Este conocimiento es fundamental para quienes buscan mejorar la reproducibilidad de sus proyectos y la eficiencia de sus procesos de análisis.
+  - Instalar e gerenciar dependências de R de maneira eficiente. Gerar e renderizar relatórios em Quarto, facilitando a apresentação de resultados. 
+  
+  - Integrar boas práticas de DevOps em seus fluxos de trabalho para melhorar a colaboração e a qualidade do código.
 
+A relevância deste workshop está na crescente necessidade de automação na análise e ciência de dados. Aprender a utilizar GitHub Actions e Quarto não só otimiza o trabalho em equipe, como também permite que os participantes implementem soluções robustas e escaláveis para a avaliação de métricas e análise de resultados. Esse conhecimento é fundamental para quem busca melhorar a reprodutibilidade de seus projetos e a eficiência de seus processos de análise.
 
-El taller está dirigido a profesionales y estudiantes de áreas como ciencia de datos, estadística, análisis de datos y programación en R. También es relevante para investigadores y desarrolladores interesados en optimizar sus flujos de trabajo mediante la automatización y la implementación de buenas prácticas de DevOps.
+O workshop é voltado para profissionais e estudantes de áreas como ciência de dados, estatística, análise de dados e programação em R. Também é relevante para pesquisadores e desenvolvedores interessados em otimizar seus fluxos de trabalho por meio da automação e da implementação de boas práticas de DevOps.
 
-Los participantes deben tener conocimientos básicos de programación en R y familiaridad con Git y GitHub. También es recomendable que tengan conocimientos basicos en generación de documentos en R, ya sea usando Rmarkdown o Quarto.
+Os participantes devem ter conhecimentos básicos de programação em R e familiaridade com Git e GitHub. Também é recomendável que tenham conhecimento básico na geração de documentos em R, seja usando Rmarkdown ou Quarto.
 
 ### Requisitos
 
-Para participar de forma óptima en el taller de Despliegue Continuo con R, GitHub y Quarto, los asistentes deben contar con una computadora portátil (Windows, macOS o Linux) y tener instalado el software necesario, que incluye R, RStudio, Git y Quarto. Además, es importante tener acceso a Internet y una cuenta de GitHub previamente creada. Se recomienda asegurarse de tener acceso a los archivos de ejemplo que se utilizarán durante el taller. Aunque no es estrictamente necesario, tener conocimientos básicos de R y Git, así como familiaridad con Markdown, será útil para aprovechar al máximo la experiencia.
+Para participar de forma ideal do workshop de Deplot Contínuo com R, GitHub e Quarto, os participantes devem contar com um laptop (Windows, macOS ou Linux) e ter o software necessário instalado, incluindo R, RStudio, Git e Quarto. Além disso, é importante ter acesso à internet e uma conta no GitHub previamente criada. Recomenda-se garantir acesso aos arquivos de exemplo que serão usados durante o workshop. Embora não seja estritamente necessário, ter conhecimentos básicos de R e Git, bem como familiaridade com Markdown, será útil para aproveitar ao máximo a experiência.
 
 ### Tutor
 
-**Sebastián Egaña Santibáñez** es Magíster en Finanzas por la Universidad de Chile, Licenciado en Filosofía por la Universidad Alberto Hurtado y Ingeniero Comercial por la Universidad Santo Tomás, Chile.
+**Sebastián Egaña Santibáñez** é Mestre em Finanças pela Universidade do Chile, Licenciado em Filosofia pela Universidade Alberto Hurtado e Engenheiro Comercial pela Universidade Santo Tomás, Chile.
 
-Es un profesional destacado en Ciencia de Datos, con una sólida trayectoria como docente universitario y experiencia en asesoría especializada. Ha contribuido significativamente a la formación académica y a la aplicación práctica del análisis de datos, ofreciendo soluciones innovadoras y estratégicas en diversos contextos.
+É um profissional destacado em Ciência de Dados, com sólida trajetória como docente universitário e experiência em assessoria especializada. Contribuiu significativamente para a formação acadêmica e aplicação prática da análise de dados, oferecendo soluções inovadoras e estratégicas em diversos contextos.
 
-## Desarrollo de Paquetes en R: Desde la Idea hasta la Implementación
+## Desenvolvimento de Pacotes em R: Da Ideia à Implementação
 
-#### Aprende cómo desarrollar paquetes de R, como implementarlos y distribuirlos.
+#### Aprenda como desenvolver pacotes em R, implementá-los e distribuí-los.
 
 ### Sobre o curso
 
-**Data** 19 de noviembre de 2024, 10:00 AM - 1:00 PM (GMT-3)
+**Data** 19 de novembro de 2024, 10:00 AM - 1:00 PM (GMT-3)
 
 **Modalidade**: Online
 
@@ -266,23 +265,22 @@ Es un profesional destacado en Ciencia de Datos, con una sólida trayectoria com
 
 **Idioma:** Espanhol
 
-Este taller ofrece una guía integral sobre el desarrollo de paquetes en R, cubriendo todo el proceso, desde la concepción de la idea hasta la implementación técnica y la distribución en plataformas como CRAN.
+Este workshop oferece um guia abrangente sobre o desenvolvimento de pacotes em R, cobrindo todo o processo, desde a concepção da ideia até a implementação técnica e a distribuição em plataformas como o CRAN.
 
-El objetivo es brindar a los asistentes una comprensión clara y práctica de cómo crear un paquete en R que cumpla con los estándares de calidad y pueda ser utilizado por la comunidad científica y de desarrollo.
+O objetivo é fornecer aos participantes uma compreensão clara e prática de como criar um pacote em R que atenda aos padrões de qualidade e possa ser utilizado pela comunidade científica e de desenvolvimento.
 
-A lo largo de la presentación, exploraremos las mejores prácticas para el diseño, documentación, pruebas, y publicación de paquetes. Se proporcionarán ejemplos y demostraciones en vivo para que los asistentes puedan adquirir habilidades prácticas aplicables en sus propios proyectos.
+Durante a apresentação, exploraremos as melhores práticas para design, documentação, testes e publicação de pacotes. Serão oferecidos exemplos e demonstrações ao vivo para que os participantes adquiram habilidades práticas aplicáveis aos seus próprios projetos.
 
-El tutorial esta enfocado en usuario de R, desarrolladores de R, investigadores, científicos de datos y profesionales de otras disciplinas que pueden tomar su conocimiento, experiencias y datos y convertirlos en un paquete de R para su publicación en el CRAN.
+O tutorial é focado em usuários de R, desenvolvedores de R, pesquisadores, cientistas de dados e profissionais de outras disciplinas que queiram transformar seu conhecimento, experiências e dados em um pacote de R para publicação no CRAN.
 
 
 ### Requisitos
 
-PC o Laptop con R, RStudio y RTools (windows) instalados, paquetes: devtools, available, usethis, testthat.
+PC ou Laptop com R, RStudio e RTools (windows) instalados, pacotes: devtools, available, usethis, testthat.
 
 ### Tutor
 
-**Renzo Cáceres Rossi**, es un especialista en el lenguaje de programación R, ya ha participado en el Latin R 2022 con la ponencia Introducción a RMarkdown, ha dictado tutoriales, conferencias en diversas universidades en Latinoamérica a través del IEEE.
+**Renzo Cáceres Rossi** é um especialista em R, tendo participado do Latin R 2022 com a palestra Introdução ao RMarkdown. Ele ministrou tutoriais e conferências em diversas universidades na América Latina através do IEEE.
 
-
-Es creador de contenido sobre ciencia de datos a través de su canal de [YouTube.](https://www.youtube.com/c/RenzoCaceresRossi)
+É criador de conteúdo sobre ciência de dados em seu canal do [YouTube](https://www.youtube.com/c/RenzoCaceresRossi).
 
