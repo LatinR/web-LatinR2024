@@ -35,10 +35,7 @@ No final do workshop, os participantes serão capazes de integrar o GitHub nos s
 Este tutorial destina-se a investigadores de todas as disciplinas interessados em melhorar as suas competências de gestão de projectos e de colaboração utilizando o GitHub. É ideal para quem trabalha em equipas ou grupos de investigação, com alguma familiaridade com fluxos de trabalho de investigação, mas não é necessária experiência prévia com o GitHub.
 
 ### Requisitos
-Os participantes devem ter um computador/laptop com acesso à Internet e armazenamento suficiente para instalar o Git. Devem ter o Git instalado e uma conta GitHub criada antes do workshop.
-- Instalar o Git: [https://git-scm.com/](https://git-scm.com/)
-- Criar uma conta gratuita no GitHub: [https://github.com/](https://github.com/)
-
+Os participantes devem ter um computador/laptop com acesso à Internet e armazenamento suficiente para instalar o Git. Devem ter o [Git instalado](https://git-scm.com/) e uma conta [GitHub](https://github.com/) criada antes do workshop.
 
 ### Tutores
 
@@ -106,10 +103,10 @@ Este tutorial destina-se a todos os que precisam de analisar conjuntos de dados 
 Os participantes que não têm acesso a HPC beneficiarão particularmente deste tutorial, uma vez que as ferramentas utilizadas podem ser facilmente instaladas num computador portátil normal e proporcionam um bom desempenho.
 
 ### Requisitos
-Os participantes já devem estar familiarizados com a manipulação de dados com o {tidyverse} (saber como usar os 5 verbos mais comuns do {dplyr} para análise de dados: mutate(), select(), filter(), summarize(), arrange() combinado com group_by()).
+Os participantes já devem estar familiarizados com a manipulação de dados com o {tidyverse} y saber como usar os 5 verbos mais comuns do {dplyr} para análise de dados: mutate(), select(), filter(), summarize(), arrange() combinado com group_by().
 
 **Software**: R >= 4.1.0
-**pacotes**: arrow, duckdb, duckplyr, tidyverse, tictoc.
+**Pacotes**: arrow, duckdb, duckplyr, tidyverse, tictoc.
 
 ### Tutor
 **François Michonneau** é um educador que adora trabalhar com dados e colocar o R em produção. Ele usa o R há mais de 20 anos e mantém vários pacotes no CRAN. Depois de fazer parte da liderança da The Carpentries durante 5 anos, trabalhou na Voltron Data durante alguns anos. Atualmente, está à procura da sua próxima função.
@@ -142,9 +139,7 @@ O tutorial destina-se a um público vasto que pretende levar os seus gráficos p
 
 ### Requisitos
 
-Para seguir as actividades do tutorial sem problemas, é necessário ter alguma experiência, mesmo que apenas inicial, com o R e o RStudio e o pacote ggplot2.
-
-Deve ter um computador com o R e o R Studio instalados e actualizados. Também será necessário instalar o pacote tidyverse, que inclui o pacote ggplot2, que será o tema do curso.
+Para seguir as actividades do tutorial sem problemas, é necessário ter alguma experiência, mesmo que apenas inicial, com o R e o RStudio e o pacote ggplot2. Deve ter um computador com o R e o R Studio instalados e actualizados. Também será necessário instalar o pacote tidyverse, que inclui o pacote ggplot2, que será o tema do curso.
 
 ### Tutores
 
@@ -170,14 +165,15 @@ Deve ter um computador com o R e o R Studio instalados e actualizados. Também s
 O tutorial cobrirá a teoria básica da modelagem de nicho ecológico (ENM) e distribuição potencial de espécies (SDM) e suas principais metodologias. Ao final do curso, predominantemente prático, os participantes terão a capacidade de executar os modelos e entender seus resultados, bem como escolher e aplicar a metodologia correta dependendo do objetivo do seu tipo de estudo e dados. O tutorial será principalmente prático, com alguns momentos teóricos. Todos os processos de modelagem, cálculos, gráficos e mapas serão realizados com R. Os participantes aprenderão a usar algoritmo de modelagem Maxent, através do pacote {flexsdm} para desenvolvimento dos modelos e será utilizado o pacote {tmap} para geração de mapas.
 
 ### Objetivos:
-  1. apresentar as bases teóricas dos modelos que podem ser utilizados;
-  2. discutir as vantagens e limitações dos modelos no contexto de diferentes aplicações;
-  3. introduzir as formas de conduzir corretamente um estudo de modelagem de nicho ecológico ou distribuição de espécies para diversas finalidades;
-  4. Iniciar a utilização de modelagem de distribuição geográfica de espécies utilizando R;
+  - Apresentar as bases teóricas dos modelos que podem ser utilizados;
+  - Discutir as vantagens e limitações dos modelos no contexto de diferentes aplicações;
+  - Introduzir as formas de conduzir corretamente um estudo de modelagem de nicho ecológico ou distribuição de espécies para diversas finalidades;
+  - Iniciar a utilização de modelagem de distribuição geográfica de espécies utilizando R;
 
 Estudantes, pesquisadores e profissionais em qualquer estágio da carreira com interesse em desenvolver e aplicar modelos de distribuição de espécies e/ou nicho ecológico de forma reprodutível e automatizada. Os participantes devem estar acostumados a trabalhar com computadores, ter uma boa conexão de internet e, de preferência, uma webcam, pois as sessões on-line ao vivo pretendem ser altamente interativas. Experiência básica anterior com R é fortemente desejável, embora não seja estritamente obrigatória. Todos os scripts R serão fornecidos e explicados em detalhes.
 
 ### Requisitos
+
 - Última versão do R e RStudio e pacotes que serão enviados por e-mail. Desejável 32MB RAM, mas é possível executar o script com 16MB.
 
 ### Tutor
@@ -215,9 +211,7 @@ R 4.1.0 o mayor, RStudio instalado. 8GB RAM (deseable), internet estable (deseab
 
 ### Tutor
 
-**Samuel Calderon** actualmente trabaja como R shiny developer en Appsilon. Previamente, su desempeño profesional ha sido en el sector público peruano, participando en iniciativas de recojo, análisis y sistematización de información con miras a mejorar la calidad de los servicios brindados a la ciudadanía en temas de lucha contra el tráfico ilícito de drogas, mejora de la calidad de la educación superior universitaria, lucha contra la corrupción y medición de la pobreza monetaria.
-
-Linkedin: <https://www.linkedin.com/in/samuelcalderon/>
+[**Samuel Calderon**](https://www.linkedin.com/in/samuelcalderon/) actualmente trabaja como R shiny developer en Appsilon. Previamente, su desempeño profesional ha sido en el sector público peruano, participando en iniciativas de recojo, análisis y sistematización de información con miras a mejorar la calidad de los servicios brindados a la ciudadanía en temas de lucha contra el tráfico ilícito de drogas, mejora de la calidad de la educación superior universitaria, lucha contra la corrupción y medición de la pobreza monetaria.
 
 ## Despliegue Continuo con R, GitHub y Quarto: Implementando Buenas Prácticas
 
@@ -267,7 +261,8 @@ Es un profesional destacado en Ciencia de Datos, con una sólida trayectoria com
 
 **Modalidade**: Online
 
-**Inscrição**: [https://www.eventbrite.com.ar/e/1046361845447](https://www.eventbrite.com.ar/e/1046361845447)
+
+**Inscrição**: [Desenvolvimento de pacotes em R](https://www.eventbrite.cl/e/desarrollo-de-paquetes-en-r-desde-la-idea-hasta-la-implementacion-tickets-10463618454477)
 
 **Idioma:** Espanhol
 
@@ -288,5 +283,6 @@ PC o Laptop con R, RStudio y RTools (windows) instalados, paquetes: devtools, av
 
 **Renzo Cáceres Rossi**, es un especialista en el lenguaje de programación R, ya ha participado en el Latin R 2022 con la ponencia Introducción a RMarkdown, ha dictado tutoriales, conferencias en diversas universidades en Latinoamérica a través del IEEE.
 
-Es creador de contenido sobre ciencia de datos a través de su canal de YouTube
-<https://www.youtube.com/c/RenzoCaceresRossi>
+
+Es creador de contenido sobre ciencia de datos a través de su canal de [YouTube.](https://www.youtube.com/c/RenzoCaceresRossi)
+

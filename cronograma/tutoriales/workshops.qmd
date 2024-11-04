@@ -164,10 +164,10 @@ You should have a computer with R and R Studio installed and up to date. They sh
 The tutorial will cover the basic theory of ecological niche modeling (ENM) and species distribution potential (SDM) and their main methodologies. By the end of the predominantly practical course, participants will have the ability to run the models and understand their results, as well as choose and apply the correct methodology depending on the purpose of their type of study and data. The tutorial will be mainly practical, with some theoretical moments. All modeling processes, calculations, graphs and maps will be carried out with R. Participants will learn to use Maxent modeling algorithm, through the {flexsdm} package to develop the models and the {tmap} package will be used to generate maps.
 
 ### Objectives:
-  1. to present the theoretical bases of the models that can be used;
-  2. discuss the advantages and limitations of the models in the context of different applications;
-  3. to introduce the ways of correctly conducting an ecological niche or species distribution modeling study for various purposes;
-  4. Initiate the use of geographic distribution modeling of species using R;
+  - To present the theoretical bases of the models that can be used;
+  - Dscuss the advantages and limitations of the models in the context of different applications;
+  - To introduce the ways of correctly conducting an ecological niche or species distribution modeling study for various purposes;
+  - Initiate the use of geographic distribution modeling of species using R;
 
 Students, researchers and professionals at any stage of their career with an interest in developing and applying species distribution and/or ecological niche models in a reproducible and automated way. Participants should be used to working with computers, have a good internet connection and preferably a webcam, as the live online sessions are intended to be highly interactive. Previous basic experience with R is strongly desirable, although not strictly mandatory. All R scripts will be provided and explained in detail.
 
@@ -261,7 +261,9 @@ Es un profesional destacado en Ciencia de Datos, con una sólida trayectoria com
 
 **Modalidad**: Online
 
-**Enrollment**: [https://www.eventbrite.com.ar/e/1046361845447](https://www.eventbrite.com.ar/e/1046361845447)
+
+**Enrollment**: [Desarrollo de Paquetes en R](https://www.eventbrite.cl/e/desarrollo-de-paquetes-en-r-desde-la-idea-hasta-la-implementacion-tickets-1046361845447)
+
 
 **Language:** Spanish
 
