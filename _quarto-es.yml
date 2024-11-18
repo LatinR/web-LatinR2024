@@ -42,8 +42,8 @@ website:
         menu:
           # - text: "Programa resumido"
           #   href: cronograma/programa/preliminar.qmd 
-          # - text: "Calendario"
-          #   href: cronograma/programa/index.qmd            
+          - text: "Programa de Charlas y Conferencias"
+            href: cronograma/programa/index.qmd
           - text: "Conferencistas"
             href: cronograma/conferencistas/index.qmd
           - text: "Tutoriales"
