@@ -53,7 +53,7 @@ Os grupos menores podem acordar um idioma comum para trabalhar - o inglês será
 
 ## Tarefas
 
-As tarefas serão preparadas como [*issues* neste repositório com o rótulo `LatinR2024`](https://github.com/r-devel/r-dev-day/issues?q=is%3Aissue+is%3Aopen+label%3ALatinR2024). Você pode adicionar *issues* ou discutir ideias para *issues*, conforme descrito no [README](https://github.com/r-devel/r-dev-day/blob/main/README.md).
+As tarefas serão preparadas como [*issues* neste repositório com o rótulo `LatinR2024`](https://github.com/r-devel/r-dev-day/issues?q=is%3Aissue+is%3Aopen+label%3A"LatinR+2024"). Você pode adicionar *issues* ou discutir ideias para *issues*, conforme descrito no [README](https://github.com/r-devel/r-dev-day/blob/main/README.md).
 
 As *issues* estão resumidos na planilha do [R Dev Day \@ LatinR 2024 Working Group Allocations](https://docs.google.com/spreadsheets/d/1Nuwusm7Xgwpw54KZnnrnNVT9vPkOk2qmromBEbYNHnU/edit). Adicione seu nome à lista de pessoas colaboradoras se tiver interesse em trabalhar em uma *issue*. Você pode se incluir em várias *issues*, pois não se trata de um compromisso final - as alocações serão finalizadas no início de cada sessão.
 

@@ -53,7 +53,7 @@ Small groups can agree on a common language to work in - English will be the def
 
 ## Tasks
 
-Tasks will be prepared as [issues on this repository with label `LatinR2024`](https://github.com/r-devel/r-dev-day/issues?q=is%3Aissue+is%3Aopen+label%3ALatinR2024).
+Tasks will be prepared as [issues on this repository with label `LatinR2024`](https://github.com/r-devel/r-dev-day/issues?q=is%3Aissue+is%3Aopen+label%3A"LatinR+2024").
 You are welcome to add issues or discuss ideas for issues as described in the [README](https://github.com/r-devel/r-dev-day/blob/main/README.md).
 
 The issues are summarised in the Google Sheet [R Dev Day \@ LatinR 2024 Working Group Allocations](https://docs.google.com/spreadsheets/d/1Nuwusm7Xgwpw54KZnnrnNVT9vPkOk2qmromBEbYNHnU/edit).
