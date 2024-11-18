@@ -107,6 +107,13 @@
   {
     "objectID": "cronograma/programa/index.html",
     "href": "cronograma/programa/index.html",
+    "title": "Programa",
+    "section": "",
+    "text": "En este programa, tenemos las charlas y conferencias principales. Para los talleres y eventos satélite, por favor consulta las páginas de: Tutoriales, R Dev Day y Translaton rOpenSci."
+  },
+  {
+    "objectID": "cronograma/programa/index-old.html",
+    "href": "cronograma/programa/index-old.html",
     "title": "Calendar / Calendário",
     "section": "",
     "text": "Today"

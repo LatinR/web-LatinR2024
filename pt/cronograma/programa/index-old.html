@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Calendar / Calendário – LatinR 2024</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
+  }
+}</script>
+<script src="../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="../../site_libs/calendar-binding-0.3.4/calendar.js"></script>
+<link href="../../site_libs/bttn-0.2.4/bttn.min.css" rel="stylesheet">
+
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../img/logo.png" alt="LatinR logo" class="navbar-logo">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Procurar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text"><strong>PT</strong></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../en/index.html"> 
+<span class="menu-text">EN</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../index.html"> 
+<span class="menu-text">ES</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Página inicial</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-sobre-a-latinr" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Sobre a LatinR</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-sobre-a-latinr">    
+        <li>
+    <a class="dropdown-item" href="../../sobre/equipo/index.html">
+ <span class="dropdown-text">Equipe organizadora</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../sobre/apoyo/apoio.html">
+ <span class="dropdown-text">Apoio</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../sobre/coc/codigo-de-conduta.html">
+ <span class="dropdown-text">Código de conduta</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../sobre/ediciones-anteriores/edicoes-anteriores.html">
+ <span class="dropdown-text">Edições anteriores</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-participe" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Participe</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-participe">    
+        <li>
+    <a class="dropdown-item" href="../../blog/pt/2024-07-09-apresentacao-trabalhos-2024.html">
+ <span class="dropdown-text">Chamada para submissão de trabalhos</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../blog/pt/2024-08-01-inscricao.qmd">
+ <span class="dropdown-text">Sobre a inscrição</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://www.eventbrite.cl/e/latinr-2024-conferencia-latinoamericana-sobre-uso-de-r-en-id-tickets-970622687587?utm-campaign=social&amp;utm-content=attendeeshare&amp;utm-medium=discovery&amp;utm-term=listing&amp;utm-source=cp&amp;aff=ebdsshcopyurl">
+ <span class="dropdown-text">Inscrição</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-programa" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Programa</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-programa">    
+        <li>
+    <a class="dropdown-item" href="../../cronograma/programa/index.html">
+ <span class="dropdown-text">Programação de Palestras</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../cronograma/conferencistas/palestras-convidadas.html">
+ <span class="dropdown-text">Palestras convidadas</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../cronograma/tutoriales/workshops-pt.html">
+ <span class="dropdown-text">Workshops</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../cronograma/r-dev-day/rdevday-pt.html">
+ <span class="dropdown-text">R Dev Day</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../cronograma/translaton/translaton-pt.html">
+ <span class="dropdown-text">Traslaton rOpenSci</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog/pt/index.html"> 
+<span class="menu-text">Novidades</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-edições-anteriores" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Edições anteriores</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-edições-anteriores">    
+        <li>
+    <a class="dropdown-item" href="https://2023.latinr.org/">
+ <span class="dropdown-text">2023</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://2022.latinr.org/">
+ <span class="dropdown-text">2022</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://2021.latinr.org/">
+ <span class="dropdown-text">2021</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://2020.latinr.org/">
+ <span class="dropdown-text">2020</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://2019.latinr.org/">
+ <span class="dropdown-text">2019</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://2018.latinr.org/">
+ <span class="dropdown-text">2018</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Calendar / Calendário</h1>
+</div>
+
+
+
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="toastui-calendar calendar html-widget" style="width:100%;height:500px;">
+<div id="htmlwidget-ae303291cd0d52d0cab3_menu">
+<span id="htmlwidget-ae303291cd0d52d0cab3_menu_navi">
+<button type="button" class="btn bttn-no-outline action-button" id="htmlwidget-ae303291cd0d52d0cab3_today">Today</button>
+<button type="button" class="btn bttn-no-outline action-button" id="htmlwidget-ae303291cd0d52d0cab3_prev">
+<i class="fa fa-chevron-left"></i>
+</button>
+<button type="button" class="btn bttn-no-outline action-button" id="htmlwidget-ae303291cd0d52d0cab3_next">
+<i class="fa fa-chevron-right"></i>
+</button>
+</span>
+<span id="htmlwidget-ae303291cd0d52d0cab3_renderRange" class="render-range"></span>
+</div>
+<br>
+<div id="htmlwidget-ae303291cd0d52d0cab3" style="width:100%;height:500px;" class="calendar html-widget" width="100%" height="500px"></div>
+</div>
+<script type="application/json" data-for="htmlwidget-ae303291cd0d52d0cab3">{"x":{"options":{"defaultView":"day","useDetailPopup":true,"useFormPopup":false,"isReadOnly":true,"usageStatistics":false,"timezone":{"zones":[{"timezoneName":"America/Montevideo","displayLabel":"UTC-3"}]},"week":{"dayNames":["Dom","Lun","Mar","Mier","Jue","Vie","Sab"],"hourStart":8,"hourEnd":19,"eventView":true,"taskView":false},"calendars":[{"id":"tutorial","name":"TUTORIAL","color":"white","borderColor":"#B5D4EB","backgroundColor":"#4c3ceb"},{"id":"charlassalon_6","name":"Charlas","color":"white","borderColor":"#B5D4EB","backgroundColor":"#327ff7"},{"id":"charlassalon_7","name":"Charlas","color":"white","borderColor":"#B5D4EB","backgroundColor":"#9f3fff"},{"id":"general","name":"General","color":"white","borderColor":"#B5D4EB","backgroundColor":"#9670ff"},{"id":"keynotes","name":"Keynotes","color":"black","borderColor":"#B5D4EB","backgroundColor":"#aff"}]},"schedules":[{"category":"time","dueDateClass":"","id":"schedule5ed70ae20fa248e902189465","calendarId":"tutorial","title":"Dra. Hannah Frick & Dr. Max Kuhn: Introduction to Machine Learning with tidymodels (I)","tags":"Models - Part 1","body":"This workshop provides an\n                             introduction to machine learning with R using the tidymodels framework,\n                             a collection of packages for modeling and machine learning using tidyverse principles.\n                             We will build, evaluate, and compare predictive models.\n                             Along the way, we’ll learn about key concepts in machine learning including overfitting\n                             and resampling. Learners will gain knowledge about good predictive modeling practices,\n                             as well as hands-on experience using tidymodels packages like parsnip, rsample, yardstick,\n                             and workflows.","start":"2023-10-18T12:00:00Z","end":"2023-10-18T15:20:00Z","location":"Room to be annouced"},{"category":"time","dueDateClass":"","id":"schedulee07d0aab4bf6a0d1b261511d","calendarId":"tutorial","title":"Dra. Hannah Frick & Dr. Max Kuhn: Introduction to Machine Learning with tidymodels (II)","tags":"Models - Part 2","body":"Dra. Hannah Frick & Dr. Max Kuhn. This workshop provides an\n                             introduction to machine learning with R using the tidymodels framework,\n                             a collection of packages for modeling and machine learning using tidyverse principles.\n                             We will build, evaluate, and compare predictive models.\n                             Along the way, we’ll learn about key concepts in machine learning including overfitting\n                             and resampling. Learners will gain knowledge about good predictive modeling practices,\n                             as well as hands-on experience using tidymodels packages like parsnip, rsample, yardstick,\n                             and workflows.","start":"2023-10-18T16:40:00Z","end":"2023-10-18T20:00:00Z","location":"Room to be annouced"},{"category":"time","dueDateClass":"","id":"schedule9843c301f40c57ec1f13c414","calendarId":"tutorial","title":"Toby Dylan Hocking: Using and contributing to the data.table package for efficient big data analysis","tags":"data.table","body":"data.table is one of the most efficient open-source in-memory data manipulation packages available today.\n                     First released to CRAN by Matt Dowle in 2006, it continues to grow in popularity, and now over 1400 other CRAN packages\n                     depend on data.table. This three hour tutorial will start with data reading from CSV, discuss basic and advanced data\n                     manipulation topics, and finally will end with a discussion about how you can contribute to data.table.\n                     In each part of the tutorial, you will be asked to solve a few exercises, to practice each new concept.","start":"2023-10-18T12:00:00Z","end":"2023-10-18T15:20:00Z","location":"Room to be annouced"},{"category":"time","dueDateClass":"","id":"scheduleee2d29bd5b4575b0433fcf9a","calendarId":"tutorial","title":"Dra. Dianne Cook: Creating data plots for effective decision-making using statistical inference with R","tags":"data plots for inference","body":"data.table is one of the most efficient open-source in-memory data manipulation packages available today.\n                     First released to CRAN by Matt Dowle in 2006, it continues to grow in popularity, and now over 1400 other CRAN packages\n                     depend on data.table. This three hour tutorial will start with data reading from CSV, discuss basic and advanced data\n                     manipulation topics, and finally will end with a discussion about how you can contribute to data.table.\n                     In each part of the tutorial, you will be asked to solve a few exercises, to practice each new concept.","start":"2023-10-18T16:40:00Z","end":"2023-10-18T20:00:00Z","location":"Room to be annouced"},{"category":"time","dueDateClass":"","id":"scheduleffd85c985b5e64d0a8001e24","calendarId":"tutorial","title":"Riva Quiroga: Creación de reportes reproducibles con Quarto","tags":"quarto","body":"En este tutorial se hará una introducción a [Quarto](https://quarto.org/), un sistema de publicación científica y técnica que permite crear contenido dinámico usando R, Python, Julia y Observable. Durante la sesión se abordarán los aspectos generales de su uso para crear reportes con R, con especial énfasis en el trabajo en formato HTML. Para ello, se mostrará paso a paso cómo crear un reporte reproducible, cómo parametrizar su contenido, cómo editar su apariencia y cómo publicarlo utilizando GitHub Pages y Netlify.\nPara poder seguir sin problema las actividades del tutorial, es necesario tener algún grado de experiencia  con el operador \"pipe\" (en cualquiera de sus dos versiones: |> o |>), con las funciones principales del paquete dplyr (como filter, summarize y group_by) y con el paquete ggplot2 (por ejemplo, tener una idea general de qué hacen las funciones geom_* o saber cómo modificar la escala del eje \"y\" de un gráfico). Para quienes tengan interés en la publicación de un reporte utilizando el servicio GitHub Pages, es necesario tener al menos un\n                  manejo inicial de git (saber cómo hacer commits y enviar cambios a un repositorio personal)","start":"2023-10-18T16:40:00Z","end":"2023-10-18T20:00:00Z","location":"Room to be annouced"},{"category":"time","dueDateClass":"","id":"schedule245b5f16b8242e70dfbd461a","calendarId":"tutorial","title":"Agustin Perez Santangelo, Oriol Senan y Federico Rivadeneira: Introducción a Shiny - Buenas prácticas en un entorno de producción","tags":"shiny","body":"El tutorial consistirá en la introducción de conceptos básicos haciendo foco en las buenas prácticas de desarrollo. El mismo constará de tres partes:\n\n- Estructura inicial y básica de un proyecto junto a las herramientas que podemos utilizar para asistirnos en esta tarea.\n\n- Modularización y buenas prácticas de desarrollo haciendo hincapié en conceptos de desarrollo con ejemplos.\n\n- Optimización y performance de una aplicación introduciendo paquetes y buenas prácticas.","start":"2023-10-18T12:00:00Z","end":"2023-10-18T15:20:00Z","location":"Room to be annouced"},{"category":"time","dueDateClass":"","id":"schedulecf15852741755b9c75706800","calendarId":"charlassalon_6","title":"{ggmagic} Building a data visualization recommendation package","tags":"Desarrollo de paquetes, Enseñanza, Visualización de datos","body":"Descubre \"ggMagic\": si te enfrentas a la indecisión sobre qué gráfico usar, simplemente introduce tus datos. La inteligencia del código analizará tus variables y sugerirá una visualización apropiada. Pero si ya tienes una idea clara, el paquete te permite personalizar según tus necesidades. ggMagic ofrece un camino más directo hacia la exploración de datos, haciendo que visualizarlos sea una practica sencilla, intuitiva y eficiente.","start":"2023-10-20T13:30:00Z","end":"2023-10-20T13:40:00Z","location":"salón 6"},{"category":"time","dueDateClass":"","id":"schedulee624e6dbc96d7f669c218aa8","calendarId":"charlassalon_7","title":"Charla Sponsor: R Consortium","tags":"Desarrollo de paquetes, Uso de R en investigación","body":"Charla del sponsor principal de la conferencia, RConsortium, en la que se dan a conocer los distintos programas y oportunidades de financiamiento existente.","start":"2023-10-20T13:30:00Z","end":"2023-10-20T13:40:00Z","location":"salón 7"},{"category":"time","dueDateClass":"","id":"schedule27d1a0c120323b9e82c30c55","calendarId":"charlassalon_6","title":"Movilidad educativa intergeneracional en Uruguay","tags":"Datos abiertos, Visualización de datos, Uso de R en investigación","body":"Utilizando datos abiertos de una reciente encuesta realizada en Uruguay y R como plataforma para explorar los datos y visualizarlos, este trabajo muestra si las generaciones más jóvenes logran mejores, iguales o peores resultados educativos que la generación de su madre o padre. La movilidad educativa intergeneracional en Uruguay muestra que en promedio un 61% de las personas logran superar el máximo nivel educativo alcanzado por su madre o padre, esto presenta heterogeneidades territoriales.","start":"2023-10-19T13:40:00Z","end":"2023-10-19T13:50:00Z","location":"salón 6"},{"category":"time","dueDateClass":"","id":"schedulea46999e46e11cc4ab35a81c8","calendarId":"charlassalon_7","title":"Web Scraping y modelos de forecasting aplicados a precios de subastas ganaderas en colombia","tags":"Datos abiertos, Modelos estadísticos, Uso de R en investigación, R en la industria","body":"Se realizo un estudio sobre los precios base en la subasta CENCOGAN, empleamos Web Scraping para recopilar datos de fuentes como Fedegan y el gobierno colombiano. Usando RStudio, aplicamos análisis estadístico descriptivo, exploratorio univariado, bivariado y multivariado, modelos de regresión lineal múltiples y Autorregresivos ARIMA para entender las tendencias y patrones. Nuestros resultados benefician a inversores y actores del mercado ganadero para tomar decisiones informadas.","start":"2023-10-19T13:40:00Z","end":"2023-10-19T13:50:00Z","location":"salón 7"},{"category":"time","dueDateClass":"","id":"schedule870143a3beed2ffd8ca0845c","calendarId":"charlassalon_6","title":"Visualizaciones en R para toma de decisiones en movilidad","tags":"Shiny, Datos espaciales, Visualización de datos, Aplicaciones de R en instituciones públicas/estatales","body":"En esta presentación hablaremos sobre la utilización de datos públicos (STM y CGM)  y privados (Waze) para construir visualizaciones y herramientas utilizando Shiny con el fin de  identificar y contextualizar zonas de Montevideo con problemas de congestión vehicular.  Estas herramientas son utilizadas para que los tomadores de decisiones desarrollen intervenciones basadas en evidencias y ajustadas a los recursos disponibles.","start":"2023-10-20T13:55:00Z","end":"2023-10-20T14:05:00Z","location":"salón 6"},{"category":"time","dueDateClass":"","id":"schedule4fad8979e4bfaba303e64636","calendarId":"charlassalon_7","title":"Uncovering Epidemics: serofoi, an R package to estimate the historical Force-of-Infection","tags":"Desarrollo de paquetes, Modelos estadísticos, R + otros lenguajes de programación, Uso de R en investigación","body":"serofoi is an R package to estimate the Force-of-Infection (FoI) of a given pathogen retrospectively from age-disaggregated population-based cross-sectional serosurveys. By untangling the underlying mechanisms of the prevalence of IgG antibodies within a Bayesian framework, serofoi can be used, for instance, to determine the effectiveness of control interventions for various infectious diseases. This package provides powerful tools for visualisation, model comparison, and fitting processes.","start":"2023-10-20T13:55:00Z","end":"2023-10-20T14:05:00Z","location":"salón 7"},{"category":"time","dueDateClass":"","id":"schedule14b199da76810dd9c1e49d07","calendarId":"charlassalon_6","title":"Usando R para estimar el impacto de una política de equidad en la admisión a las universidades en Chile","tags":"Datos abiertos, Uso de R en investigación","body":"Se implementó un diseño de Regresión Discontinua (RD), diseño cuasi-experimental ampliamente utilizado en la estimación de efectos de políticas educativas. Se usaron los paquetes rddtools y rdrobust. Además de las estimaciones, ambos paquetes permiten generar las gráficas de la RD y la exploración de los supuestos para la estimación de efectos causales. De esta forma, R permitió desarrollar todos los pasos necesarios para la implementación e interpretación de esta técnica de inferencia causal.","start":"2023-10-19T14:05:00Z","end":"2023-10-19T14:15:00Z","location":"salón 6"},{"category":"time","dueDateClass":"","id":"schedule221d10f44a47ee57f173c6f3","calendarId":"charlassalon_7","title":"Producing Early Warnings through Online News​ With R","tags":"Shiny, Minería de textos, Aprendizaje automático, Aplicaciones de R en instituciones públicas/estatales","body":"In this presentation, we'll show how to use R to extract insights from online news sources for early warning. We'll introduce Topics Explorer and Data Lab Trends, which analyze topics related to SDGs and food security. We'll also explain the topic classification process, using vetiver and pin packages to version, deploy, and monitor trained models. Our news database includes 25 million tweets and articles from 650 news accounts in 192 countries and multiple languages.","start":"2023-10-19T14:05:00Z","end":"2023-10-19T14:15:00Z","location":"salón 7"},{"category":"time","dueDateClass":"","id":"schedule479d03c3889fcf9937b74290","calendarId":"charlassalon_6","title":"Selector de temas para Ggplot2 con Shiny","tags":"Shiny, Visualización de datos","body":"Se introduce una App Shiny que tiene como objetivo agilizar la tarea de elegir un estilo predefinido para los gráficos realizados con el paquete ggplot2. Esta app permite al usuario subir un objeto ggplot desde el equipo y aplicarle de manera dinámica distintos estilos, pudiendo elegir entre más de 200 temas pertenecientes a diversos paquetes de R disponibles en CRAN o en GitHub. Se brindan además otras utilidades, como la posibilidad de ajustar las dimensiones de la figura.","start":"2023-10-20T14:20:00Z","end":"2023-10-20T14:30:00Z","location":"salón 6"},{"category":"time","dueDateClass":"","id":"schedulee9aab2c8cbb8b5164e8d5132","calendarId":"charlassalon_7","title":"Aplicação do método do julgamento holístico e do método tradicional para a criação de matrizes paritárias no processo de análise hierárquica: uma análise comparativa com o uso do pacote AHPWR","tags":"Desarrollo de paquetes, Reproducibilidad, Uso de R en investigación","body":"O Processo de Análise Hierárquica (AHP) é um método para tomada de decisão multicritério. O método de julgamento holístico, proposto por Godoi (2014), reduz a inconsistência dos julgamentos. Utilizamos o pacote AHPWR em R, que implementa ambos os métodos. Apresentamos um exemplo de seleção de projetos, comparando os resultados. O método de julgamento holístico mostrou-se mais flexível, robusto e consistente.","start":"2023-10-20T14:20:00Z","end":"2023-10-20T14:30:00Z","location":"salón 7"},{"category":"time","dueDateClass":"","id":"schedule2de6a3642b54d04e1a61dc4b","calendarId":"charlassalon_6","title":"Generación masiva de gráficos, pieza clave de una intervención comportamental para promover la asistencia escolar","tags":"Visualización de datos, Uso de R en investigación, Aplicaciones de R en instituciones públicas/estatales","body":"Se presenta un caso de utilización de R como herramienta para el diseño de una intervención comportamental con el objetivo de reducir el ausentismo escolar. La intervención implicó la generación de más de 10.000 gráficos con información sobre las inasistencias de cada estudiante y, en algunos casos, la comparación con las de un compañero. La utilización de R permitió agregar esta información altamente personalizada a las cartas para que pudieran ser enviadas en los tiempos requeridos.","start":"2023-10-20T14:25:00Z","end":"2023-10-20T14:35:00Z","location":"salón 6"},{"category":"time","dueDateClass":"","id":"schedule9c0bbcb7f758feb99dc3a898","calendarId":"charlassalon_6","title":"Shiny en producción: Monitor Educativo","tags":"Shiny, Visualización de datos, R + otros lenguajes de programación","body":"Presentaremos desafíos y posibles soluciones en la puesta en producción de una aplicación basada en shiny que presenta diferentes niveles de complejidad. La app  requiere interactuar con grandes volúmenes de datos, tiene muchos usuarios e  interacciones a distintos niveles de análisis.  La app es un monitor de uso de la plataforma educativa CREA2 del Plan Ceibal realizada con Rhino que permite el desarrollo de la aplicación en forma modular, eficiente facilitando la reproducibilidad.","start":"2023-10-19T14:30:00Z","end":"2023-10-19T14:40:00Z","location":"salón 6"},{"category":"time","dueDateClass":"","id":"scheduleb237661aebbabfe64a9513e9","calendarId":"charlassalon_7","title":"Datos, pero que sean moda","tags":"Datos abiertos, Modelos estadísticos, Visualización de datos","body":"Acompáñame en LatinR para echar un vistazo revelador a la industria de la moda uruguaya a través del análisis de la MoWeek, empleando métodos estadísticos novedosos y consolidados. Descubre las tendencias de precios, las paletas de colores y las prácticas de sostenibilidad y cómo hallarlas utilizando R.","start":"2023-10-19T14:30:00Z","end":"2023-10-19T14:40:00Z","location":"salón 7"},{"category":"time","dueDateClass":"","id":"scheduleeff987f59398c1da19933540","calendarId":"charlassalon_6","title":"Visualizador de indicadores del mercado laboral con R-Shiny","tags":"Shiny, Visualización de datos, Aplicaciones de R en instituciones públicas/estatales","body":"En este trabajo se presenta un visualizador, realizado con R-Shiny, de indicadores oficiales provenientes de la Encuesta Continua de Hogares (ECH) llevada a cabo por el INE de Uruguay. En el mismo se presentan estimaciones de una amplia gama de indicadores del mercado de trabajo considerando distintas aperturas, con el objetivo de centralizar y complementar la información presentada por el INE en sus informes mensuales, aportando además una visualización interactiva de los resultados.","start":"2023-10-20T14:30:00Z","end":"2023-10-20T14:40:00Z","location":"salón 6"},{"category":"time","dueDateClass":"","id":"schedule355b66d63987ae55c12f7853","calendarId":"charlassalon_6","title":"Lo que aprendí sobre R y reproducibilidad durante mi doctorado","tags":"Reproducibilidad, Uso de R en investigación, Quarto / RMarkdown","body":"Usar R puede ser toda una aventura, hacer un doctorado aún más. Esta charla es un recorrido por las herramientas que usé a lo largo de este tiempo para trabajar de manera reproducible y aprovechar el ecosistema de herramientas alrededor de R. Como toda aventura, este recorrido tiene sus altibajos y muchas lecciones aprendidas que espero poder compartir.","start":"2023-10-20T14:50:00Z","end":"2023-10-20T15:00:00Z","location":"salón 6"},{"category":"time","dueDateClass":"","id":"schedule2b78a68cfb4e000ee7943b3d","calendarId":"charlassalon_7","title":"{Bounding} a package for identification bounds","tags":"Desarrollo de paquetes, Modelos estadísticos, Uso de R en investigación","body":"Sometimes the interest is to make predictions under regression models in presence of missing outcomes. As an alternative to imputation, deleting missing values or correction procedures, we consider a partial identifiability approach. The Bounding package was developed to obtain bound estimations for the regression model. Integrating tidyverse and ggplot2 an illustration is shown in the context of predictive validity of selection factors in the Chilean university admission system.","start":"2023-10-20T14:50:00Z","end":"2023-10-20T15:00:00Z","location":"salón 7"},{"category":"time","dueDateClass":"","id":"schedule7bceddf8e6a04138129d9c76","calendarId":"charlassalon_6","title":"R as the core tool for data analysis and visualization in a breeding program: from field and genotypic evaluation to individual selection","tags":"Datos espaciales, Modelos estadísticos, Visualización de datos, Uso de R en investigación","body":"R is a powerful tool for selecting crosses and individuals in the context of breeding programs. It begins with the design and analysis of field data, encompassing spatial and temporal correlations as well as environmental covariates. This extends to high-throughput genotypic analysis for DNA markers identification, to use all previously gathered information to predict the best individuals. This work aims to demonstrate the use of different R packages applied at each stage of a breeding program.","start":"2023-10-19T15:05:00Z","end":"2023-10-19T15:15:00Z","location":"salón 6"},{"category":"time","dueDateClass":"","id":"schedule75b073536834294d1ade0753","calendarId":"charlassalon_7","title":"Shiny para useRs que no usan R","tags":"Shiny, Minería de textos, Aplicaciones de R en instituciones públicas/estatales","body":"El trabajo presenta el desarrollo de una aplicación Shiny  que permitió a un equipo que trabaja de manera programática con `R` y muchos de sus paquetes desarrollar una aplicación para facilitar tareas de porcesamiento y gestión a un segundo equipo que no tiene este herramental a disposición. A través de un caso de uso específico, desarollado por el Ministerio de Turismo y Deportes de Argentina, proponemos acá una serie de pasos que pueden servir como guía para otras experiencias análogas. ","start":"2023-10-19T15:05:00Z","end":"2023-10-19T15:15:00Z","location":"salón 7"},{"category":"time","dueDateClass":"","id":"schedule9f23106d1488478cc56dce3a","calendarId":"charlassalon_6","title":"¿Afirmaciones extraordinarias exigen evidencia extraordinaria? Reproducibilidad y datos abiertos en calidad de agua","tags":"Reproducibilidad, Datos abiertos, Uso de R en investigación","body":"Un artículo publicado en 2020 desafiaba la relación entre eutrofización y floraciones de cianobacterias. En este trabajo de Reproducibilidad pudimos refutar estas afirmaciones, identificando errores en procesamiento y análisis de datos. El uso de R y Tidyverse fueron claves para manipular los datos y garantizar la transparencia con código auditable disponible en un repositorio abierto. Subrayamos la importancia de herramientas que permiten hacer ciencia de calidad, democrática y reproducible.","start":"2023-10-20T15:15:00Z","end":"2023-10-20T15:25:00Z","location":"salón 6"},{"category":"time","dueDateClass":"","id":"schedulef3469bba44905eccaa413fcc","calendarId":"charlassalon_7","title":"An R Package to Compare the Wold and Lohmöller PLS Mode B Algorithms","tags":"Desarrollo de paquetes, Shiny, Modelos estadísticos, Uso de R en investigación","body":"An R package to compare the properties of the Wold and Lohmöller algorithms to estimate PLS Mode B path models. Two objective functions are examined: sum of the square correlations between components (SSQCOR criterion) and sum of the absolute value of the correlations between components (SABSCOR criterion). The comparison is reported in terms of the function value, number of iterations, and mean relative bias, and mean square error associated to the estimations. Results are reported graphically.","start":"2023-10-20T15:15:00Z","end":"2023-10-20T15:25:00Z","location":"salón 7"},{"category":"time","dueDateClass":"","id":"scheduleb0e4be34105ef14e27ee1668","calendarId":"charlassalon_6","title":"Extensiones al modelo de segregación de Schelling: Impacto del costo de mudanza","tags":null,"body":null,"start":"2023-10-19T15:30:00Z","end":"2023-10-19T15:40:00Z","location":"salón 6"},{"category":"time","dueDateClass":"","id":"schedulea0ea99b072d75b05c0be1c1f","calendarId":"charlassalon_7","title":"Legibilidad: Nuevas formas de mejorar la comunicación en el Banco Central de Chile","tags":"Shiny, Uso de R en investigación, Aplicaciones de R en instituciones públicas/estatales","body":"La legibilidad de un texto se ha convertido en una variable de gran interés en los bancos centrales. Esto se debe a que su permanente esfuerzo por influir en la evolución de las expectativas y las decisiones de los agentes de la economía se basa en la comprensión de su comunicación. Para enfrentar estos desafíos, el Banco Central de Chile creó una aplicación que permite la detección de elementos que aumentan la dificultad lingüística de un texto. Esta fue app construida con la librería Shiny y se usa actualmente en el banco.","start":"2023-10-19T15:30:00Z","end":"2023-10-19T15:40:00Z","location":"salón 7"},{"category":"time","dueDateClass":"","id":"schedule205629708a366b6247b5f984","calendarId":"charlassalon_6","title":"Uso del paquete Bibliometrix en R para análisis de la producción científica uruguaya 1980-2019","tags":null,"body":null,"start":"2023-10-20T15:40:00Z","end":"2023-10-20T15:50:00Z","location":"salón 6"},{"category":"time","dueDateClass":"","id":"scheduleb4041af33c644f4cf85c4247","calendarId":"charlassalon_7","title":"preDose: evaluación externa de modelos nlme para uso en dosificación de precisión","tags":"Desarrollo de paquetes, Modelos estadísticos, Uso de R en investigación","body":"La variabilidad en la respuesta a los medicamentos plantea desafíos en la eficacia y seguridad. La biblioteca preDose en R utiliza modelos nlme previamente reportados y un conjunto de datos, para optimizar tratamientos, considerando factores individuales.  La evaluación de la capacidad predictiva de dichos modelos es por lo tanto un paso esencial previo a su implementación en la población objetivo lo que promueve una atención médica más precisa y segura.","start":"2023-10-20T15:40:00Z","end":"2023-10-20T15:50:00Z","location":"salón 7"},{"category":"time","dueDateClass":"","id":"schedule6e7d204892e62e9ba2a754a3","calendarId":"charlassalon_6","title":"Aproximación a la distribución funcional entre trabajadores. Un análisis a partir de técnicas multivariadas para el período 2006-2021 en Uruguay.","tags":"Modelos estadísticos, Visualización de datos, Uso de R en investigación","body":"El principal objetivo de este trabajo consiste en analizar la participación de la masa de remuneraciones laborales en el ingreso, y analizar su apropiación por parte de distintos grupos de trabajadores. Se aplica el análisis de cluster sobre variables que reflejen características individuales de los trabajadores y su puesto de trabajo, con la finalidad de identificar grupos diferenciados de trabajadores. Se utilizan datos de Encuestas de Hogares.","start":"2023-10-19T15:55:00Z","end":"2023-10-19T16:05:00Z","location":"salón 6"},{"category":"time","dueDateClass":"","id":"schedulec0151730801dc82d380e198f","calendarId":"charlassalon_7","title":"Sistema de gestión de proyectos para la administración pública con shiny","tags":"Desarrollo de paquetes, Shiny, R + otros lenguajes de programación, Aplicaciones de R en instituciones públicas/estatales","body":"Se desarrolló una web app usando shiny, bs4Dash y shinyWidgets, para hacer seguimiento a  al estilo tablero Kanban dentro de una oficina del sector público. Esto conllevó a desarrollar un modelo relacional de datos, que tuvo que ser implementado con los paquetes R6, DBI y RMariaDB. Para mantener la seguridad del acceso se usó el servicio Firebase de Google. La app hace intenso uso de shiny modules, se estructura como un paquete  golem y aspira a ser 100% reproducible via docker.","start":"2023-10-19T15:55:00Z","end":"2023-10-19T16:05:00Z","location":"salón 7"},{"category":"time","dueDateClass":"","id":"schedule6119303b541edc86a4d43836","calendarId":"charlassalon_6","title":"Hacia una estrategia de generación, procesamiento y democratización de los datos de la ciudad: la experiencia en el Gobierno de Montevideo, Uruguay 2023","tags":"Enseñanza, Datos abiertos, Aplicaciones de R en instituciones públicas/estatales","body":"La toma de decisiones basada en evidencia es un lineamiento clave de la Ing. Carolina Cosse en su gestión. Trabajando junto a “The Bloomberg Philanthropies City Data Alliance” se elaboró la Estrategia de Datos, de la cual uno de los pilares es la capacidad. \nPresentaremos cuál es nuestra estrategia para aumentar la capacidad de nuestros equipos en extracción, procesamiento y análisis de datos, con especial énfasis en la formación en R y cuáles han sido nuestros principales desafíos en el camino.","start":"2023-10-20T17:25:00Z","end":"2023-10-20T17:35:00Z","location":"salón 6"},{"category":"time","dueDateClass":"","id":"schedulea603b8862b35b96614b224c0","calendarId":"charlassalon_7","title":"RelDists: A Comprehensive R Package for Reliability Analysis and Distribution Modeling","tags":"Desarrollo de paquetes, Modelos estadísticos, R en la industria","body":"El paquete RelDists fue creado para facilitar el uso de nuevas distribuciones propuestas en el campo del análisis de confiabilidad. Este paquete permite a los usuarios la estimación de parámetros en modelos de regresión y funciones para obtener la densidad, la función de distribución, la función de riesgo, la función cuantil y la función de confiabilidad. Este paquete se convierte en un recurso invaluable para investigadores y profesionales en el campo de la confiabilidad.","start":"2023-10-20T17:25:00Z","end":"2023-10-20T17:35:00Z","location":"salón 7"},{"category":"time","dueDateClass":"","id":"schedulec1cbb0f5c7cdfe3ce9227d3c","calendarId":"charlassalon_6","title":"Análisis de colaboración en comunidades por medio de analisis de redes sociales","tags":"Enseñanza, Comunidades, Análisis de redes","body":"Las comunidades de práctica son espacios donde las personas comparten conocimientos y\ncontribuyen a objetivos individuales y de grupo. Conocer los tipos de miembros y formas de\nparticipación, junto con las colaboraciones que existen, y entre quiénes, es un insumo\nimportante para entender la comunidad y tomar acciones para su mejora. Presentamos como implementar un análisis de redes sociales utilizando R en una comunidad de practica real y una serie de consejos si queres hacer lo mismo.","start":"2023-10-19T17:40:00Z","end":"2023-10-19T17:50:00Z","location":"salón 6"},{"category":"time","dueDateClass":"","id":"schedule878659bfc8aead6b9019ed63","calendarId":"charlassalon_7","title":"{geoAr}: datos y herramientas geo de Argentina","tags":"Desarrollo de paquetes, Datos espaciales","body":"El presente trabajo tiene como objetivo presentar el paquete que funciona como colección de herramientas que facilita el acceso a datos y el flujo de trabajo para el análisis espacial de Argentina, tanto su versión estable (disponible en CRAN) como las herramientas en desarrollo.","start":"2023-10-19T17:40:00Z","end":"2023-10-19T17:50:00Z","location":"salón 7"},{"category":"time","dueDateClass":"","id":"schedulefc6a9a020e09ebb7095dd801","calendarId":"charlassalon_6","title":"Un paquete para facilitar la rendición de cuentas del estado peruano","tags":"Desarrollo de paquetes, Datos abiertos, Uso de R en investigación, Aplicaciones de R en instituciones públicas/estatales","body":"El estado peruano tiene una plataforma virtual interactiva para el seguimiento del gasto público. Debido a que esta herramienta no cuenta con un medio oficial para su uso programático (API), se desarrolló perutranspaeconomica, que intenta llenar ese vacío. El paquete permite hacer consultas masivas y automatizadas, devolviendo cada consulta en un dataframe. Aunque todo esto se consigue a través de web scraping, el usuario del paquete no necesita en absoluto estar familiarizado con esta técnica.","start":"2023-10-20T17:50:00Z","end":"2023-10-20T18:00:00Z","location":"salón 6"},{"category":"time","dueDateClass":"","id":"scheduleef9d4d3d9254e321b258c39f","calendarId":"charlassalon_7","title":"SisINTAR: un paquete para gestionar datos de perfiles de suelos de Argentina","tags":"Desarrollo de paquetes, Shiny, Datos abiertos, Aplicaciones de R en instituciones públicas/estatales","body":"El INTA de Argentina mantiene SISINTA un sistema de información para gestionar datos de perfiles de suelo (información de campo, laboratorio y ubicación). Permite búsquedas por atributos y ubicación, así como la descarga de los datos. El paquete SISINTAR fue desarrollado para permitir el acceso, lectura y manipulación de datos de perfiles de suelo de SISINTA de forma programática, utilizando estándares en el procesamiento, visualización y representación de información de suelos y desde R.","start":"2023-10-20T17:50:00Z","end":"2023-10-20T18:00:00Z","location":"salón 7"},{"category":"time","dueDateClass":"","id":"schedule8ef47af050d55997684b4195","calendarId":"charlassalon_6","title":"Programa de Campeonas y Campeones de rOpenSci en Latinoamérica","tags":"Enseñanza, Comunidades, Uso de R en investigación","body":"Las personas campeonas de una comunidad son personas que asumen una mayor\nresponsabilidad en el éxito, la sostenibilidad y/o el funcionamiento de una comunidad. En esta charla te contaremos sobre el programa de rOpenSci y la experiencia de personas de latinoamérica participando con diversos roles en el piloto del programa. También daremos detalles de los proyectos desarrollados, las actividades que se realizan durante el programa, las lecciones aprendidas y como participar en futuras ediciones.","start":"2023-10-19T18:05:00Z","end":"2023-10-19T18:15:00Z","location":"salón 6"},{"category":"time","dueDateClass":"","id":"schedule049eeede1e510de09cfe27ac","calendarId":"charlassalon_7","title":"Utilizando R, Python y Julia para el desarrollo de un sistema de detección satelital de una especie invasora (Castor Canadiense) en la Patagonia.","tags":"Datos espaciales, Modelos estadísticos, R + otros lenguajes de programación, Aplicaciones de R en instituciones públicas/estatales","body":"La gestión y control de especies invasoras es uno de los principales desafíos de la actual crisis de biodiversidad, es particular en zonas remotas, como la Patagonia. En este trabajo, combinando diversas tecnologías (Julia, Python y R), hemos desarrollado un sistema de detección temprana de nuevas castoreras, utilizando imágenes satelitales, modelos de distribución y dispersión de especies, Google Cloud y APIs. Las pruebas piloto mostraron capacidad de detección del sistema sobre 70%.","start":"2023-10-19T18:05:00Z","end":"2023-10-19T18:15:00Z","location":"salón 7"},{"category":"time","dueDateClass":"","id":"schedulefaf8b3ef7b7fa98fd49bb77b","calendarId":"charlassalon_6","title":"SIES Argentina: R & Shiny en la difusión de estadísticas oficiales","tags":"Shiny, Visualización de datos, Aplicaciones de R en instituciones públicas/estatales","body":"En esta presentación compartiremos el proceso de construcción de la Shiny del Sistema Integrado de Estadísticas Sociales (SIES) (https://shiny.indec.gob.ar/sies/)  elaborado por el INDEC de Argentina. Nos interesa exponer los aprendizajes y dificultades durante este proceso, y la importancia de la articulación con otros equipos, organismos públicos y la comunidad de R. Queremos reflexionar sobre los impactos del uso de software libre para la producción pública de información estadística.","start":"2023-10-20T18:15:00Z","end":"2023-10-20T18:25:00Z","location":"salón 6"},{"category":"time","dueDateClass":"","id":"schedule0c4daaeb2e9b40c1cd0aba71","calendarId":"charlassalon_6","title":"Desafiando barreras y construyendo equidad: Una estrategia e-learning con perspectiva de género en ciencia de datos en salud pública para Latinoamérica","tags":"Enseñanza, Comunidades, Uso de R en investigación, Aplicaciones de R en instituciones públicas/estatales","body":"La brecha de género en programación y el uso de metodologías educativas tradicionales han generado barreras de participación equitativa. Es por esto que la implementación de estrategias innovadoras son cada vez más necesarias para desafiar estereotipos y motivar el estudio en ciencia de datos. Presentaremos los resultados del proyecto Epiverse TRACE-LAC orientados al fortalecimiento de habilidades de programación en R y el análisis de datos para el manejo de epidemias en Latinoamérica.","start":"2023-10-19T18:30:00Z","end":"2023-10-19T18:40:00Z","location":"salón 6"},{"category":"time","dueDateClass":"","id":"schedule4e56145a184f92415ddef577","calendarId":"charlassalon_7","title":"Un observatorio de sequía para Chile desarrollado con R-shiny","tags":"Shiny, Datos abiertos, Visualización de datos, Uso de R en investigación","body":"El cambio climático y en particular la sequía se están intensificando y aumentando en frecuencia. Chile ha sido impactado de forma severa. En este trabajo se desarrolló un observatorio de sequía para Chile (https://odes-chile.org/app/unidades/) en base a datos climáticos de reanalisis e imágenes satelitales, usando R y Shiny. Se utilizaron paquetes de análisis de datos geoespaciales (tidyverse, sf, terra, stars), además de paquetes para visualización (highcharter, leaflet).","start":"2023-10-19T18:30:00Z","end":"2023-10-19T18:40:00Z","location":"salón 7"},{"category":"time","dueDateClass":"","id":"schedule4376b2807bb6673d66daf5e1","calendarId":"charlassalon_6","title":"Mandalas: Uma Abordagem para Desenvolver Habilidades Humanas com R","tags":"Desarrollo de paquetes, Enseñanza, Visualización de datos","body":"Nesta apresentação, exploraremos o desenvolvimento de habilidades humanas através da criação de mandalas com a linguagem de programação R. As mandalas, símbolos de harmonia e criatividade, serão criadas com formas geométricas e cores variadas. Usaremos os pacotes ggplot2 e mandalaR para desenhar curvas e escolher cores. Também ensinaremos como criar padrões simétricos complexos. Ao final, discutiremos como esse processo contribui para o desenvolvimento humano.","start":"2023-10-19T18:55:00Z","end":"2023-10-19T19:05:00Z","location":"salón 6"},{"category":"time","dueDateClass":"","id":"schedule79456c7719ef8391c492afa3","calendarId":"charlassalon_7","title":"Análisis espacial de fosas clandestinas: una propuesta para estudiar los procesos de militarización en México","tags":"Datos abiertos, Datos espaciales, Modelos estadísticos, Visualización de datos","body":"A raíz de la llamada \"Guerra contra las drogas\" en México (2006-2012), la militarización es una política que ha ido tomando fuerza. Este reforzamiento se corresponde con la presencia de grupos de crimen organizado. México vive una crisis de violencia, entre ellas la desaparición forzada. La presente propuesta explora las aplicaciones metodológicas de R para el procesamiento de datos en el análisis espacial del hallazgo de fosas clandestinas en territorio.","start":"2023-10-19T18:55:00Z","end":"2023-10-19T19:05:00Z","location":"salón 7"},{"category":"time","dueDateClass":"","id":"schedule97f7348c7e32d42894f4cb78","calendarId":"charlassalon_6","title":"Twitter y Mujeres STEM. Análisis con R.","tags":"Comunidades, Minería de textos, Análisis de redes, Uso de R en investigación","body":"La brecha de género sigue vigente en todo el mundo, especialmente en las profesiones STEM. Un enfoque desde los casos de éxito recopilados en un corpus creado a partir de los tres libros de la serie “Matilda y las Mujeres en Ingeniería” fue analizado mediante técnicas de Minería de Textos y Procesamiento de Lenguaje Natural (NLP). El estudio se amplió a la red social Twitter, incorporando además un análisis de sentimientos y emociones, mediante técnicas NLP codificadas en R.","start":"2023-10-19T19:30:00Z","end":"2023-10-19T19:40:00Z","location":"salón 6"},{"category":"time","dueDateClass":"","id":"schedulea817fcb949dfb3dc88d05e4b","calendarId":"charlassalon_7","title":"Uso de R en la modelización de un sistema de previaturas de Unidades Curriculares mediante grafos","tags":"Enseñanza, Análisis de redes, Visualización de datos, Uso de R en investigación","body":"Las complejidades de aprobación relacionadas al sistema de previaturas de los cursos que integran los planes de estudios universitarios requieren de un análisis complejo y difícil de comunicarlo. El trabajo busca implementar, interpretar y visualizar amigablemente en el entorno de R, un grafo utilizando los paquetes igraph y ggraph, a partir de cursos que integran el sistema de previaturas. Como resultado se identifican grupos jerárquicos permitiendo categorizar a los cursos universitarios.","start":"2023-10-19T19:30:00Z","end":"2023-10-19T19:40:00Z","location":"salón 7"},{"category":"time","dueDateClass":"","id":"schedule14baee60c2452852adffaeb7","calendarId":"charlassalon_6","title":"Una Shiny app para el mapeo de comunidades, organizaciones y eventos de ciencia abierta en Latinoamérica","tags":"Shiny, Comunidades, Datos abiertos, Visualización de datos","body":"El objetivo de esta charla es mostrar la primera versión de una aplicación interactiva desarrollada con el paquete Shiny para disponibilizar información relacionada con recursos, eventos, talleres, oportunidades de financiamiento y comunidades de ciencia abierta en América Latina. De esta manera, buscamos visibilizar la diversidad de iniciativas y generar redes de contacto que enriquezcan el ejercicio de la ciencia abierta en la región.","start":"2023-10-19T19:35:00Z","end":"2023-10-19T19:45:00Z","location":"salón 6"},{"category":"time","dueDateClass":"","id":"schedule0e143ca50c3776d557e6cfd6","calendarId":"charlassalon_7","title":"Control de ítems por frecuencia en la función biblioNetwork","tags":"Análisis de redes, Visualización de datos, Uso de R en investigación","body":"La función biblioNetwork permite la construcción de redes e identificación de grupos al trabajar con datos bibliográficos. En esta ponencia se propone mostrar como pequeños cambios en la función permiten tener control de los ítems considerados en el análisis. Se busca mostrar la importancia de entender las funciones que utilizamos en nuestros análisis con un ejemplo concreto.","start":"2023-10-19T19:35:00Z","end":"2023-10-19T19:45:00Z","location":"salón 7"},{"category":"time","dueDateClass":"","id":"schedule2fc0945bb8388009585a2ae5","calendarId":"charlassalon_6","title":"Convertite en R Contributor: aportando traducciones a R base","tags":"Comunidades, R + otros lenguajes de programación","body":"¿Sabías que puedes contribuir a R base aportando traducciones a los mensajes de error que leerán las personas que hablan tu idioma? En esta charla te contaremos todo sobre cómo contribuir a R y cómo conectar con equipos de trabajo en español y portugués. Tendrás una primera aproximación a Weblate y repasaremos las guías de contribución a R y los manuales de traducción, que te ayudarán a convertirte en R Contributor en tiempo récord y conectar con personas interesadas en hacer crecer al lenguaje.","start":"2023-10-19T19:40:00Z","end":"2023-10-19T19:50:00Z","location":"salón 6"},{"category":"time","dueDateClass":"","id":"schedule57fc288f7c54ed4576f8331b","calendarId":"charlassalon_7","title":"Modelos de aprendizaje estadístico para mejorar la focalización de transferencias monetarias","tags":"Aprendizaje automático, Modelos estadísticos, Uso de R en investigación, Aplicaciones de R en instituciones públicas/estatales","body":"El trabajo se centra en el análisis de los mecanismos de focalización que utilizan los Programas de Transferencias Condicionadas en América Latina para seleccionar sus beneficiarios. Para el caso del programa AFAM-PE de Uruguay, se ensayan modelos basados en Aprendizaje Estadístico, y se comparan rendimientos en cuanto a reducción de errores de focalización con respecto al método econométrico (probit) que tradicionalmente se utiliza para definir la elegibilidad del Programa.","start":"2023-10-19T19:40:00Z","end":"2023-10-19T19:50:00Z","location":"salón 7"},{"category":"time","dueDateClass":"","id":"schedulede8e493c791d07ea7a4774f9","calendarId":"charlassalon_6","title":"Swirlify Carpentries Course","tags":"Enseñanza","body":"En esta charla relámpago se presentará el diseño de un curso introductorio a la programación en R, que tiene como base para sus contenidos el curso “R para Análisis Científicos Reproducibles”, diseñado por Software Carpentry y está programado en SWIRL.\n\nEl objetivo final es brindar a la comunidad de usuarios de R un material de enseñanza para quienes se inician en el lenguaje, que sea flexible y fácilmente adaptable a diferentes temarios.","start":"2023-10-19T19:45:00Z","end":"2023-10-19T19:55:00Z","location":"salón 6"},{"category":"time","dueDateClass":"","id":"schedulee5c570d3a553fc5e1d4518f4","calendarId":"charlassalon_7","title":"Una biblioteca en C++ para la simulación rápida de colas","tags":null,"body":null,"start":"2023-10-19T19:45:00Z","end":"2023-10-19T19:55:00Z","location":"salón 7"},{"category":"time","dueDateClass":"","id":"schedulefffd9e57e526b5dd321d9cae","calendarId":"charlassalon_6","title":"Mejorando los llamados a paquetes","tags":"Reproducibilidad, Datos abiertos, Minería de textos, Uso de R en investigación","body":"Este trabajo explora lo que la comunidad de R está comentando sobre los paquetes que utiliza. Se revisaron >500,000 archivos públicos buscando llamados a ‘library()’ seguidos por un comentario. Los comentarios encontrados incluyen notas de instalación, para qué se está cargando un paquete, y cuáles funciones fueron usadas. Estos resultados sustentan los objetivos del paquete {annotater} para agregar la fuente, versión, título, o los datos o funciones que se están utilizando de cada paquete.","start":"2023-10-19T19:50:00Z","end":"2023-10-19T20:00:00Z","location":"salón 6"},{"category":"time","dueDateClass":"","id":"scheduledea0cd6f7661b2c41a1369ae","calendarId":"charlassalon_7","title":"Integración de datos aplicada a estudios de farmacodinamia","tags":null,"body":null,"start":"2023-10-19T19:50:00Z","end":"2023-10-19T20:00:00Z","location":"salón 7"},{"category":"time","dueDateClass":"","id":"schedule91831dcf5b0a99a18841072f","calendarId":"charlassalon_6","title":"Aplicación Shiny para explorar las compras públicas","tags":"Shiny, Datos abiertos, Visualización de datos","body":"El Monitor de Compras Públicas ofrece una interfaz amigable para explorar la contratación pública en Uruguay (2002-2022). Se pueden filtrar los datos, descargarlos e interactuar con las visualizaciones que describen los contratos a nivel de organismos/productos y las tendencias a lo largo del tiempo. El código R se estructura de forma modular para una mejor legibilidad y performance.  El código css, js y HTML se encuentra en archivos separados en pos de mantener su legibilidad.","start":"2023-10-19T20:05:00Z","end":"2023-10-19T20:15:00Z","location":"salón 6"},{"category":"time","dueDateClass":"","id":"schedule525e883fcce0d876418edcc6","calendarId":"charlassalon_7","title":"Primera aproximación al efecto de Eprinomectina en materia fecal bovina sobre el desempeño reproductivo de Onthophagus hircus (Coleoptera: Scarabaeidae)","tags":"Visualización de datos, Uso de R en investigación, Quarto / RMarkdown","body":"Esta charla relámpago tratará sobre el uso de R en el desarrollo, elaboración y presentación de un proyecto de tesis de Maestría en Ciencias Biológicas del Programa de Posgrado PEDECIBA Biología. Se mostrará cómo se utilizó R en todo su desarrollo, como ser el análisis de datos utilizando los paquetes {base}, {lme4} y {visR}, y el entorno {tidyverse}, redacción del documento con RMarkdown y presentación de la defensa con {xaringan}.","start":"2023-10-19T20:05:00Z","end":"2023-10-19T20:15:00Z","location":"salón 7"},{"category":"time","dueDateClass":"","id":"schedule4c7dcca19ddcf628ec0204f7","calendarId":"charlassalon_6","title":"{GPS_perfiles}: Automatización del Gasto Público Social (GPS) uruguayo por perfiles de edad y sexo","tags":"Desarrollo de paquetes, Aplicaciones de R en instituciones públicas/estatales","body":"Esta presentación busca compartir la experiencia de la División de Análisis de Datos (DAD) de DINTAD-MIDES en la generación y estimación del GPS por edad y sexo entre los años 2018 y 2021. El objetivo principal es mostrar las potencialidades, obstáculos y resultados obtenidos de la automatización de procesos complejos mediante R (R Core Team 2021) que contienen múltiples insumos y fuentes de datos, así como el proceso de control de versión con GitLab.","start":"2023-10-19T20:10:00Z","end":"2023-10-19T20:20:00Z","location":"salón 6"},{"category":"time","dueDateClass":"","id":"scheduled1f4fd1c34eddc41004a5efc","calendarId":"charlassalon_7","title":"Shiny app para meta-análisis interactivos en una revisión sistemática viva","tags":"Shiny, Modelos estadísticos, Visualización de datos, Uso de R en investigación","body":"El objetivo de este trabajo es dar a conocer una aplicación web creada utilizando la librería Shiny de R. Esta herramienta interactiva permite resumir y visualizar meta-análisis de artículos científicos que informan sobre diferentes resultados en relación con los beneficios y riesgos de las vacunas contra el COVID-19 durante el embarazo. Los usuarios pueden personalizar diferentes opciones de visualización de los resultados, facilitando la comprensión de una gran cantidad de información.","start":"2023-10-19T20:10:00Z","end":"2023-10-19T20:20:00Z","location":"salón 7"},{"category":"time","dueDateClass":"","id":"schedule7b80575fc1d8144b9ce53cd3","calendarId":"charlassalon_6","title":"{DADverse}: Simplificando el procesamiento de datos para políticas públicas enfocadas en población vulnerable","tags":"Desarrollo de paquetes, Reproducibilidad, Uso de R en investigación, Aplicaciones de R en instituciones públicas/estatales","body":"En ciertas ocasiones, el uso de R implica programar en ambientes de uso restringido. Utilizar la lógica de paquetes en estos entornos, implica varios desafíos tanto a la hora de programar como al momento de poner en producción. La combinación de R, RStudio y GitLab nos ha dado la oportunidad de presentar esta experiencia en proceso avanzado de implementación, junto con un metapaquete que conjuga varios paquetes desarrollados por nuestro equipo.","start":"2023-10-19T20:15:00Z","end":"2023-10-19T20:25:00Z","location":"salón 6"},{"category":"time","dueDateClass":"","id":"schedule9ae36fc4eacb0173c5cb76a8","calendarId":"charlassalon_7","title":"Análise de correlação cruzada das séries temporais de casos e mortes de COVID-19 e as variações de preço do IFIX","tags":"Reproducibilidad, Datos abiertos, Modelos estadísticos, Uso de R en investigación","body":"O estudo utiliza o R para investigar a correlação entre o desempenho de fundos imobiliários (IFIX) e a pandemia de COVID-19, aplicando o coeficiente RhoDCCA. O trabalho contribui para entender impactos da pandemia nos mercado financeiro brasileiro e promove oportunidades para futuras pesquisas usando essa abordagem com diferentes pacotes em R para análise de séries temporais não estacionárias com diferentes tipos de dados.","start":"2023-10-19T20:15:00Z","end":"2023-10-19T20:25:00Z","location":"salón 7"},{"category":"time","dueDateClass":"","id":"scheduleb0954e078822a1fdcd211111","calendarId":"charlassalon_6","title":"Investigación periodística en Medio Ambiente","tags":"Comunidades, Visualización de datos, Uso de R en investigación, Quarto / RMarkdown","body":"En abril del 2023 comencé a investigar sobre el desarrollo de una autovía en las sierras del Valle de Punilla Córdoba, Argentina para el diario La Nación. Dicha autovía  forma parte del proyecto bioceánico en Latinoamérica. Utilizando un mix de técnicas del periodismo y del análisis de datos a través de Quarto Book me permite compartir lo investigado hasta el momento sobre el impacto en bosques nativos, comunidades originarias y cuestionar el objetivo de reducir las emisiones de CO2.","start":"2023-10-19T20:20:00Z","end":"2023-10-19T20:30:00Z","location":"salón 6"},{"category":"time","dueDateClass":"","id":"scheduled0fd6fd8b0e2ffd4408c435a","calendarId":"charlassalon_7","title":"Pacotes da linguagem R para análise de pesquisas realizadas com escala Likert","tags":"Reproducibilidad, Modelos estadísticos, R + otros lenguajes de programación, Uso de R en investigación","body":"A escala Likert é comum em pesquisas sociais para medir atitudes com afirmações e graus de concordância. A análise exige técnicas estatísticas e a linguagem R possui pacotes para simplificar esse processo. Nesta apresentação, exploraremos os principais pacotes R para análise de escalas Likert, destacando funcionalidades e exemplos práticos, além das principais demandas dos pesquisadores sobre essa ferramenta.","start":"2023-10-19T20:20:00Z","end":"2023-10-19T20:30:00Z","location":"salón 7"},{"category":"time","dueDateClass":"","id":"schedule34055e0c8d825788436d49ac","calendarId":"general","title":"Registro de participantes / Registration","tags":"general","body":" ...","start":"2023-10-19T11:30:00Z","end":"2023-10-19T12:00:00Z","location":"..."},{"category":"time","dueDateClass":"","id":"scheduleb0aea703df56745cc5ed4fb8","calendarId":"general","title":"Registro de participantes / Registration","tags":"general","body":" ...","start":"2023-10-20T11:30:00Z","end":"2023-10-20T12:00:00Z","location":"..."},{"category":"time","dueDateClass":"","id":"schedule43bc981444d3b5db3b460d72","calendarId":"keynotes","title":"Aula Magna: Inauguración y Charla plenaria/Keynote: Di Cook","tags":"keynotes","body":" ...","start":"2023-10-19T12:00:00Z","end":"2023-10-19T13:10:00Z","location":null},{"category":"time","dueDateClass":"","id":"schedulee4ddad8180e6fc2edbcd341e","calendarId":"keynotes","title":"Aula Magna: Inauguración y Charla plenaria/Keynote: Hannah Frick","tags":"keynotes","body":" ...","start":"2023-10-19T21:00:00Z","end":"2023-10-19T22:00:00Z","location":null},{"category":"time","dueDateClass":"","id":"scheduleeafd73a94ba054b9617061b6","calendarId":"keynotes","title":"Aula Magna/Charla plenaria/Keynote: Fabrizio Scrollini","tags":"keynotes","body":" ...","start":"2023-10-20T12:00:00Z","end":"2023-10-20T13:00:00Z","location":null},{"category":"time","dueDateClass":"","id":"schedule3f456281f74fc05c67a111c0","calendarId":"keynotes","title":"Aula Magna/Charla plenaria/Keynote: Max Kuhn, cierre y sorteos","tags":"keynotes","body":" ...","start":"2023-10-20T19:40:00Z","end":"2023-10-20T20:50:00Z","location":null},{"category":"time","dueDateClass":"","id":"schedule8a42a6ab24340ad0a52b8793","calendarId":"general","title":"Café/Coffee break","tags":"general","body":" ...","start":"2023-10-19T20:35:00Z","end":"2023-10-19T21:00:00Z","location":null},{"category":"time","dueDateClass":"","id":"schedule9af696fd3c7bc2020726ab97","calendarId":"general","title":"Café/Coffee break","tags":"general","body":" ...","start":"2023-10-19T13:10:00Z","end":"2023-10-19T13:40:00Z","location":null},{"category":"time","dueDateClass":"","id":"schedule7594490a02654a842599b6ae","calendarId":"general","title":"Café/Coffee break","tags":"general","body":" ...","start":"2023-10-20T13:00:00Z","end":"2023-10-20T13:30:00Z","location":null},{"category":"time","dueDateClass":"","id":"schedule55385266efe7987eeb9579b1","calendarId":"general","title":"Café/Coffee break y posters","tags":"general","body":" ...","start":"2023-10-20T18:40:00Z","end":"2023-10-20T19:40:00Z","location":null}],"navigation":true,"defaultDate":"2023-10-18T11:30:00Z","events":[],"navigationOptions":{"today_label":"Hoy","prev_label":"<svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 256 256\" class=\"phosphor-svg\" height=\"1.33em\" fill=\"currentColor\" style=\"vertical-align:-0.25em;\">\n  <path d=\"M164.24,203.76a6,6,0,1,1-8.48,8.48l-80-80a6,6,0,0,1,0-8.48l80-80a6,6,0,0,1,8.48,8.48L88.49,128Z\"><\/path>\n  <title>caret-left-light<\/title>\n<\/svg>","next_label":"<svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 256 256\" class=\"phosphor-svg\" height=\"1.33em\" fill=\"currentColor\" style=\"vertical-align:-0.25em;\">\n  <path d=\"M180.24,132.24l-80,80a6,6,0,0,1-8.48-8.48L167.51,128,91.76,52.24a6,6,0,0,1,8.48-8.48l80,80A6,6,0,0,1,180.24,132.24Z\"><\/path>\n  <title>caret-right-light<\/title>\n<\/svg>","class":" bttn-stretch bttn-sm bttn-warning","color":"blue","fmt_date":"DD/MM/YYYY","sep_date":"-"}},"evals":[],"jsHooks":[]}</script>
+<!-- font awesome -->
+<script src="https://kit.fontawesome.com/1f72d6921a.js" crossorigin="anonymous"></script>
+<!-- font awesome -->
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copiada");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copiada");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>Copyright © 2023-2024, LatinR Team</p>
+</div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:info@latinr.org">
+      <i class="bi bi-envelope" role="img" aria-label="Email">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/latinr">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/LatinR_Conf">
+      <i class="bi bi-twitter" role="img" aria-label="Twitter">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/company/latinrconf/">
+      <i class="bi bi-linkedin" role="img" aria-label="Linkedin">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://join.slack.com/t/latin-r/shared_invite/zt-2tespojdh-OpXaVcnzOY_SETtv9hqRSQ">
+      <i class="bi bi-slack" role="img" aria-label="Slack">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
