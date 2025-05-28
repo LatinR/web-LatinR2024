@@ -48,9 +48,9 @@ jobs:
             any::toastui
             any::reactable
 
-      - name: Execute Script
-        run: |
-          Rscript "data-raw/actions-update-from-google-sheets.R"      
+#      - name: Execute Script
+#        run: |
+#          Rscript "data-raw/actions-update-from-google-sheets.R"      
           
 
       - name: render
